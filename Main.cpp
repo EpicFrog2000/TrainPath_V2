@@ -6,8 +6,8 @@ int main()
 {
 
 std::vector<std::pair<std::string, std::pair<int, int>>> allStations = GetAllStations();
-std::vector<std::pair<int, int>> firstStation = GetOneStationCoords("Gdańsk", allStations);
-std::vector<std::pair<int, int>> secondStation = GetOneStationCoords("Zakopane", allStations);
+std::vector<std::pair<int, int>> firstStation = GetOneStationCoords("Staszów", allStations);
+std::vector<std::pair<int, int>> secondStation = GetOneStationCoords("Przemyśl", allStations);
 /*
 for (const auto &elem : getPointsBetweenTwoStations(firstStation, secondStation))
 {
@@ -34,6 +34,11 @@ for (const auto &elem : WholePath)
 //Drawing map
 DrawMap(allStations, GetPathBetweenMultipleStations(GetStationsFromArea(allStations, getPointsBetweenTwoStations(firstStation, secondStation))));
 //DrawMap(allStations, getPointsBetweenTwoStations(firstStation, secondStation));
+
+//TODO:
+//sort stations so that path is more logical maybe or something so it looks more natural
+//change sp that stations cannot go aboxe, below or behind end stations
+//check for more edge cases and bugs
 
 return 0;
 }
