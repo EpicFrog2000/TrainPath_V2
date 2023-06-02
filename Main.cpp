@@ -1,5 +1,6 @@
 #include "Contact_With_DB/Data_Base_contact.cpp"
 #include "destination_functions/Coordinates_Calculations.cpp"
+#include "Drawing_Map/Map_Draw.cpp"
 
 int main()
 {
@@ -12,5 +13,6 @@ getPointsBetweenTwoStations(firstStation, secondStation);
 //    std::cout << elem.first << ", " << elem.second << "\n";
 //}
 //Drawing map
+DrawPlainMap();
 return 0;
 }

@@ -2,7 +2,7 @@
 #include <mysql/mysql.h>
 #include <vector>
 
-MYSQL* connect()
+MYSQL* connect() // Establish the database connection
 {
     MYSQL* connection = mysql_init(NULL);
     if (connection == NULL)
@@ -37,7 +37,7 @@ MYSQL_RES* queryForConnAndQText(MYSQL* connection, const std::string& QueryText)
 std::vector<std::pair<std::string, std::pair<int, int>>> GetAllStations()
 {
     std::vector<std::pair<std::string, std::pair<int, int>>> allstations;
-    MYSQL* connection = connect(); // Establish the database connection
+    MYSQL* connection = connect(); 
     
     if (connection != nullptr)
     {
@@ -51,10 +51,10 @@ std::vector<std::pair<std::string, std::pair<int, int>>> GetAllStations()
             {
                 std::string name(row[0]);
                 std::string x(row[1]);
-                std::string y(row[2]); // Corrected index
+                std::string y(row[2]); 
                 int tempx = std::stoi(x);
                 int tempy = std::stoi(y);
-                allstations.emplace_back(name, std::make_pair(tempx, tempy)); // Corrected syntax
+                allstations.emplace_back(name, std::make_pair(tempx, tempy)); 
             }
             
             mysql_free_result(res); // Free the result set
