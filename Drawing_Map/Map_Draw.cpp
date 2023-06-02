@@ -1,6 +1,6 @@
 #include "Map_Draw.h"
-#include "iostream"
-void DrawPlainMap()
+
+void DrawMap(const std::vector<std::pair<std::string, std::pair<int, int>>>& allStations, std::vector<std::pair<int, int>> path)
 {
     for (int i = 0; i <= 100; i++)
     {
@@ -46,8 +46,33 @@ void DrawPlainMap()
                 }
                 else
                 {
-                    std::cout << "   ";
-                    
+                    bool drawn = false;
+                    for (const auto& station : allStations)
+                    {
+                        if (station.second.first == j && station.second.second == i)
+                        {
+                            std::cout << "_S_";
+                            drawn = true;
+                            break;
+                        }
+                    }
+                    if (!drawn)
+                    {
+                        bool pathFound = false;
+                        for (const auto& wholePath : path)
+                        {
+                            if (wholePath.first == j && wholePath.second == i)
+                            {
+                                std::cout << " * ";
+                                pathFound = true;
+                                break;
+                            }
+                        }
+                        if (!pathFound)
+                        {
+                            std::cout << "   ";
+                        }
+                    }
                 }
             }
         }
