@@ -57,11 +57,15 @@ std::vector<std::pair<int, int>> getPointsBetweenTwoStations(const std::vector<s
     return points;
 }
 
-std::vector<std::pair<int, int>> addMoreValues(const std::vector<std::pair<int, int>> &vec1, const std::vector<std::pair<int, int>> &vec2)
+std::vector<std::pair<int, int>> addMoreValues(const std::vector<std::pair<int, int>>& vec1, const std::vector<std::pair<int, int>>& vec2)
 {
-    std::vector<std::pair<int, int>> result = vec1;
+    std::vector<std::pair<int, int>> result;
+    result.reserve(vec1.size() + vec2.size()); // Reserve space for the result vector
 
-    // Add the values from vec2 to result vector
+    // Append the values from vec1
+    result.insert(result.end(), vec1.begin(), vec1.end());
+
+    // Append the values from vec2
     result.insert(result.end(), vec2.begin(), vec2.end());
 
     return result;
@@ -77,7 +81,7 @@ double DistanceToLineSegment(int x, int y, int x1, int y1, int x2, int y2)
         // The segment is actually a point
         dx = x - x1;
         dy = y - y1;
-        return std::sqrt(dx * dx + dy * dy);
+        return std::hypot(dx, dy); // Use hypot function to calculate the Euclidean distance
     }
 
     double t = ((x - x1) * dx + (y - y1) * dy) / (dx * dx + dy * dy);
@@ -103,10 +107,10 @@ double DistanceToLineSegment(int x, int y, int x1, int y1, int x2, int y2)
         dy = y - closestY;
     }
 
-    return std::sqrt(dx * dx + dy * dy);
+    return std::hypot(dx, dy); // Use hypot function to calculate the Euclidean distance
 }
 
-std::set<std::pair<int, int>> GetStationsFromArea(const std::vector<std::pair<std::string, std::pair<int, int>>> &allStations, const std::vector<std::pair<int, int>> &pathBetweenStations, const int &ODCHYLENIE)
+std::set<std::pair<int, int>> GetStationsFromArea(const std::vector<std::pair<std::string, std::pair<int, int>>>& allStations, const std::vector<std::pair<int, int>>& pathBetweenStations, const int& ODCHYLENIE)
 {
     std::set<std::pair<int, int>> SetOfStationsOnPath;
 
@@ -115,22 +119,21 @@ std::set<std::pair<int, int>> GetStationsFromArea(const std::vector<std::pair<st
         return SetOfStationsOnPath; // Return empty set if there are not enough points in the path
     }
 
-    for (const auto &station : allStations)
+    for (const auto& station : allStations)
     {
-        const std::pair<int, int> &stationCoords = station.second;
-        int stationX = stationCoords.first;
-        int stationY = stationCoords.second;
-
         bool withinDistance = false;
+
+        const int stationX = station.second.first;
+        const int stationY = station.second.second;
 
         // Check the distance between the station and each segment of the path
         for (size_t i = 0; i < pathBetweenStations.size() - 1; i++)
         {
-            const std::pair<int, int> &pointA = pathBetweenStations[i];
-            const std::pair<int, int> &pointB = pathBetweenStations[i + 1];
+            const auto& pointA = pathBetweenStations[i];
+            const auto& pointB = pathBetweenStations[i + 1];
 
             // Calculate the distance from the station to the line segment defined by pointA and pointB
-            double distance = DistanceToLineSegment(stationX, stationY, pointA.first, pointA.second, pointB.first, pointB.second);
+            const double distance = DistanceToLineSegment(stationX, stationY, pointA.first, pointA.second, pointB.first, pointB.second);
 
             if (distance <= ODCHYLENIE)
             {
@@ -141,25 +144,30 @@ std::set<std::pair<int, int>> GetStationsFromArea(const std::vector<std::pair<st
 
         if (withinDistance)
         {
-            SetOfStationsOnPath.insert(stationCoords);
+            SetOfStationsOnPath.insert(station.second);
         }
     }
 
     return SetOfStationsOnPath;
 }
 
-std::set<std::pair<int, int>> SortStationsByDistance(std::set<std::pair<int, int>> Stations, const std::vector<std::pair<int, int>> firstStation, const std::vector<std::pair<int, int>> lastStation)
+std::set<std::pair<int, int>> SortStationsByDistance(std::set<std::pair<int, int>> Stations, const std::vector<std::pair<int, int>>& firstStation, const std::vector<std::pair<int, int>>& lastStation)
 {
+    // Create a lambda function for calculating the squared distance between two points
+    auto distanceFunc = [](const std::pair<int, int>& p1, const std::pair<int, int>& p2) {
+        int dx = p1.first - p2.first;
+        int dy = p1.second - p2.second;
+        return dx * dx + dy * dy;
+    };
+
     // Calculate the distance of each station from the first and last stations
     std::vector<std::pair<int, std::pair<int, int>>> distances;
-    for (const auto &station : Stations)
+    for (const auto& station : Stations)
     {
-        int distanceFromFirst = (station.first - firstStation[0].first) * (station.first - firstStation[0].first) +
-                                (station.second - firstStation[0].second) * (station.second - firstStation[0].second);
-        int distanceFromLast = (station.first - lastStation[0].first) * (station.first - lastStation[0].first) +
-                               (station.second - lastStation[0].second) * (station.second - lastStation[0].second);
-        distances.push_back(std::make_pair(distanceFromFirst, station));
-        distances.push_back(std::make_pair(distanceFromLast, station));
+        int distanceFromFirst = distanceFunc(station, firstStation[0]);
+        int distanceFromLast = distanceFunc(station, lastStation[0]);
+        distances.emplace_back(distanceFromFirst, station);
+        distances.emplace_back(distanceFromLast, station);
     }
 
     // Sort the stations based on their distances from the first and last stations
@@ -169,7 +177,7 @@ std::set<std::pair<int, int>> SortStationsByDistance(std::set<std::pair<int, int
     std::set<std::pair<int, int>> sortedStations;
 
     // Add the sorted stations to the set
-    for (const auto &distance : distances)
+    for (const auto& distance : distances)
     {
         sortedStations.insert(distance.second);
     }
@@ -177,20 +185,23 @@ std::set<std::pair<int, int>> SortStationsByDistance(std::set<std::pair<int, int
     return sortedStations;
 }
 
-std::vector<std::pair<int, int>> GetPathBetweenMultipleStations(const std::set<std::pair<int, int>> &stations)
+std::vector<std::pair<int, int>> GetPathBetweenMultipleStations(const std::set<std::pair<int, int>>& stations)
 {
     std::vector<std::pair<int, int>> WholePath;
 
-    std::pair<int, int> prevStation; // Previous station coordinates
-
-    for (const auto &station : stations)
+    if (stations.empty())
     {
-        if (prevStation != std::pair<int, int>())
-        {
-            std::vector<std::pair<int, int>> pathBetweenStations = getPointsBetweenTwoStations({prevStation}, {station});
-            WholePath.insert(WholePath.end(), pathBetweenStations.begin(), pathBetweenStations.end());
-        }
+        return WholePath; // Return empty path if there are no stations
+    }
 
+    auto it = stations.begin();
+    std::pair<int, int> prevStation = *it; // Initialize prevStation with the first station
+
+    for (++it; it != stations.end(); ++it)
+    {
+        const auto& station = *it;
+        std::vector<std::pair<int, int>> pathBetweenStations = getPointsBetweenTwoStations({ prevStation }, { station });
+        WholePath.insert(WholePath.end(), pathBetweenStations.begin(), pathBetweenStations.end());
         prevStation = station;
     }
 
