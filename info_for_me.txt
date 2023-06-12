@@ -1,0 +1,2 @@
+g++ -o MAIN Main.cpp Contact_With_DB/contact_with_db.cpp destination_functions/Coordinates_Calculations.cpp Drawing_Map/Map_Draw.cpp -lncurses `mysql_config --cflags --libs` && ./MAIN
+

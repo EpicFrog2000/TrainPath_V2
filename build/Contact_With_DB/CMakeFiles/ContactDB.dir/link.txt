@@ -1,0 +1,2 @@
+/usr/bin/ar qc libContactDB.a CMakeFiles/ContactDB.dir/contact_with_db.cpp.o
+/usr/bin/ranlib libContactDB.a
