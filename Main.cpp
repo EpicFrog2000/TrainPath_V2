@@ -1,15 +1,15 @@
-#include "Contact_With_DB/Data_Base_contact.cpp"
-#include "destination_functions/Coordinates_Calculations.cpp"
-#include "Drawing_Map/Map_Draw.cpp"
-
+#include "Contact_With_DB/contact_with_db.hpp"
+#include "destination_functions/Coordinates_Calculations.hpp"
+#include "Drawing_Map/Map_Draw.hpp"
+#include <vector>
+#include <set>
 int main()
 {
-
     std::vector<std::pair<std::string, std::pair<int, int>>> allStations = GetAllStations();
-    std::vector<std::pair<int, int>> firstStation = GetOneStationCoords("Warszawa", allStations);
-    std::vector<std::pair<int, int>> secondStation = GetOneStationCoords("Gdańsk", allStations);
+    std::vector<std::pair<int, int>> firstStation = GetOneStationCoords("Gdańsk", allStations);
+    std::vector<std::pair<int, int>> secondStation = GetOneStationCoords("Pabianice", allStations);
     // 2 is best for now i think
-    const int ODCHYLENIE = 2; // --- Change if Path is to wonky maybe will find better way later to do this
+    const int ODCHYLENIE = 3; // --- Change if Path is to wonky maybe will find better way later to do this
     std::set<std::pair<int, int>> sortedStations = SortStationsByDistance(GetStationsFromArea(allStations, getPointsBetweenTwoStations(firstStation, secondStation),ODCHYLENIE), firstStation, secondStation);
     DrawMap(allStations, GetPathBetweenMultipleStations(sortedStations));
     // TODO:
@@ -17,7 +17,7 @@ int main()
     // maybe do so that next station cannot me equeal or less distance to endstation - idk
     // change sp that stations cannot go aboxe, below or behind end stations 
     // add function that generates path between given stations in between first nad last station
-    // check for more edge cases and bugs
+    // check for more edge cases and bugsqt
 
     return 0;
 }

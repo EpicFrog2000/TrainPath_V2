@@ -1,4 +1,4 @@
-#include "Coordinates_Calculations.h"
+#include "Coordinates_Calculations.hpp"
 #include <cmath>
 #include <algorithm>
 std::vector<std::pair<int, int>> getPointsBetweenTwoStations(const std::vector<std::pair<int, int>> &firstStation, const std::vector<std::pair<int, int>> &secondStation)
