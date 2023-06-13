@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"Contact_With_DB/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "ContactDB_autogen::@4212cc9c68a832ed150e",
+	"isGeneratorProvided" : true,
+	"name" : "ContactDB_autogen",
+	"paths" : 
+	{
+		"build" : "Contact_With_DB",
+		"source" : "Contact_With_DB"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Dysk_przeno\u015bny/Programowanie/C++/TrainApp_v1/build-PathingApp_v1-Desktop-Debug/Contact_With_DB/CMakeFiles/ContactDB_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Dysk_przeno\u015bny/Programowanie/C++/TrainApp_v1/build-PathingApp_v1-Desktop-Debug/Contact_With_DB/CMakeFiles/ContactDB_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

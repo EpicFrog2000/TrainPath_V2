@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDestinationFunctions.a CMakeFiles/DestinationFunctions.dir/DestinationFunctions_autogen/mocs_compilation.cpp.o CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.o
+/usr/bin/ranlib libDestinationFunctions.a

@@ -1,0 +1,175 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-25af3576d0152e1e2712.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "Drawing_Map",
+					"jsonFile" : "directory-Drawing_Map-Debug-fc0c5f6d1a1b4d8bf2da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Drawing_Map",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "destination_functions",
+					"jsonFile" : "directory-destination_functions-Debug-59d3626045d1fb1c8e3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "destination_functions",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "Contact_With_DB",
+					"jsonFile" : "directory-Contact_With_DB-Debug-a793d9f150969b88d18e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Contact_With_DB",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "PathingApp_v1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "ContactDB::@4212cc9c68a832ed150e",
+					"jsonFile" : "target-ContactDB-Debug-cbd5c8886bc6f38dbfc0.json",
+					"name" : "ContactDB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ContactDB_autogen::@4212cc9c68a832ed150e",
+					"jsonFile" : "target-ContactDB_autogen-Debug-7558b6e90eecb0865e52.json",
+					"name" : "ContactDB_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "DestinationFunctions::@08758c317464603469e5",
+					"jsonFile" : "target-DestinationFunctions-Debug-996dd9e5edcd17a43ffa.json",
+					"name" : "DestinationFunctions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "DestinationFunctions_autogen::@08758c317464603469e5",
+					"jsonFile" : "target-DestinationFunctions_autogen-Debug-69cb3a7115038d28a9c5.json",
+					"name" : "DestinationFunctions_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DrawFunctions::@7d1cb23dce8ad51d3992",
+					"jsonFile" : "target-DrawFunctions-Debug-b6149fad80e02ce1c8ef.json",
+					"name" : "DrawFunctions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DrawFunctions_autogen::@7d1cb23dce8ad51d3992",
+					"jsonFile" : "target-DrawFunctions_autogen-Debug-8d563584a81d082f079e.json",
+					"name" : "DrawFunctions_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PathingApp_v1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PathingApp_v1-Debug-1ec6c04f596c546abbca.json",
+					"name" : "PathingApp_v1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PathingApp_v1_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PathingApp_v1_autogen-Debug-50f97f910245f213cae6.json",
+					"name" : "PathingApp_v1_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Dysk_przeno\u015bny/Programowanie/C++/TrainApp_v1/build-PathingApp_v1-Desktop-Debug",
+		"source" : "/Dysk_przeno\u015bny/Programowanie/C++/TrainApp_v1/PathingApp_v1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
