@@ -7,13 +7,13 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/CMakeLists.txt"
-  "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/Contact_With_DB/CMakeLists.txt"
-  "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/Drawing_Map/CMakeLists.txt"
+  "/Dysk_przenośny/Programowanie/C++/TrainPath_V2/CMakeLists.txt"
+  "/Dysk_przenośny/Programowanie/C++/TrainPath_V2/Contact_With_DB/CMakeLists.txt"
+  "/Dysk_przenośny/Programowanie/C++/TrainPath_V2/Drawing_Map/CMakeLists.txt"
   "CMakeFiles/3.26.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeSystem.cmake"
-  "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/destination_functions/CMakeLists.txt"
+  "/Dysk_przenośny/Programowanie/C++/TrainPath_V2/destination_functions/CMakeLists.txt"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -26,18 +26,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake/Modules/Compiler/GNU.cmake"
-  "/usr/share/cmake/Modules/FindGLEW.cmake"
-  "/usr/share/cmake/Modules/FindGLUT.cmake"
-  "/usr/share/cmake/Modules/FindOpenGL.cmake"
-  "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
-  "/usr/share/cmake/Modules/FindPackageMessage.cmake"
-  "/usr/share/cmake/Modules/FindPkgConfig.cmake"
   "/usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake/Modules/Platform/Linux.cmake"
   "/usr/share/cmake/Modules/Platform/UnixPaths.cmake"
-  "/usr/share/cmake/Modules/SelectLibraryConfigurations.cmake"
   )
 
 # The corresponding makefile is:
@@ -57,7 +50,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Program.dir/DependInfo.cmake"
-  "CMakeFiles/copy_resources.dir/DependInfo.cmake"
   "Drawing_Map/CMakeFiles/DrawFunctions.dir/DependInfo.cmake"
   "destination_functions/CMakeFiles/DestinationFunctions.dir/DependInfo.cmake"
   "Contact_With_DB/CMakeFiles/ContactDB.dir/DependInfo.cmake"

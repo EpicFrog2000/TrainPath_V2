@@ -1,5 +1,5 @@
 Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.o: \
- /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/Contact_With_DB/contact_with_db.cpp \
+ /Dysk_przenośny/Programowanie/C++/TrainPath_V2/Contact_With_DB/contact_with_db.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13.1.1/iostream \
  /usr/include/c++/13.1.1/bits/requires_hosted.h \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -143,4 +143,4 @@ Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.o: \
  /usr/include/c++/13.1.1/bits/stl_vector.h \
  /usr/include/c++/13.1.1/bits/stl_bvector.h \
  /usr/include/c++/13.1.1/bits/vector.tcc \
- /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/Contact_With_DB/contact_with_db.hpp
+ /Dysk_przenośny/Programowanie/C++/TrainPath_V2/Contact_With_DB/contact_with_db.hpp

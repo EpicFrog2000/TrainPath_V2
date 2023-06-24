@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś"
+CMAKE_SOURCE_DIR = /Dysk_przenośny/Programowanie/C++/TrainPath_V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build"
+CMAKE_BINARY_DIR = /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Contact_With_DB//CMakeFiles/progress.marks"
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Contact_With_DB/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" 0
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(CMAKE_COMMAND) -E cmake_progress_start /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/CMakeFiles /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/Contact_With_DB//CMakeFiles/progress.marks
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Contact_With_DB/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Contact_With_DB/clean
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Contact_With_DB/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Contact_With_DB/preinstall
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Contact_With_DB/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Contact_With_DB/preinstall
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Contact_With_DB/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Contact_With_DB/CMakeFiles/ContactDB.dir/rule:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Contact_With_DB/CMakeFiles/ContactDB.dir/rule
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Contact_With_DB/CMakeFiles/ContactDB.dir/rule
 .PHONY : Contact_With_DB/CMakeFiles/ContactDB.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ContactDB: Contact_With_DB/CMakeFiles/ContactDB.dir/rule
 
 # fast build rule for target.
 ContactDB/fast:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f Contact_With_DB/CMakeFiles/ContactDB.dir/build.make Contact_With_DB/CMakeFiles/ContactDB.dir/build
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f Contact_With_DB/CMakeFiles/ContactDB.dir/build.make Contact_With_DB/CMakeFiles/ContactDB.dir/build
 .PHONY : ContactDB/fast
 
 contact_with_db.o: contact_with_db.cpp.o
@@ -135,7 +135,7 @@ contact_with_db.o: contact_with_db.cpp.o
 
 # target to build an object file
 contact_with_db.cpp.o:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f Contact_With_DB/CMakeFiles/ContactDB.dir/build.make Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.o
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f Contact_With_DB/CMakeFiles/ContactDB.dir/build.make Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.o
 .PHONY : contact_with_db.cpp.o
 
 contact_with_db.i: contact_with_db.cpp.i
@@ -143,7 +143,7 @@ contact_with_db.i: contact_with_db.cpp.i
 
 # target to preprocess a source file
 contact_with_db.cpp.i:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f Contact_With_DB/CMakeFiles/ContactDB.dir/build.make Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.i
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f Contact_With_DB/CMakeFiles/ContactDB.dir/build.make Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.i
 .PHONY : contact_with_db.cpp.i
 
 contact_with_db.s: contact_with_db.cpp.s
@@ -151,7 +151,7 @@ contact_with_db.s: contact_with_db.cpp.s
 
 # target to generate assembly for a file
 contact_with_db.cpp.s:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f Contact_With_DB/CMakeFiles/ContactDB.dir/build.make Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.s
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f Contact_With_DB/CMakeFiles/ContactDB.dir/build.make Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.s
 .PHONY : contact_with_db.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
