@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Dysk_przenośny/Programowanie/C++/TrainPath_V2
+CMAKE_SOURCE_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build
+CMAKE_BINARY_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/CMakeFiles /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -130,6 +130,19 @@ Program/fast:
 .PHONY : Program/fast
 
 #=============================================================================
+# Target rules for targets named copy_resources
+
+# Build rule for target.
+copy_resources: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 copy_resources
+.PHONY : copy_resources
+
+# fast build rule for target.
+copy_resources/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_resources.dir/build.make CMakeFiles/copy_resources.dir/build
+.PHONY : copy_resources/fast
+
+#=============================================================================
 # Target rules for targets named DrawFunctions
 
 # Build rule for target.
@@ -168,29 +181,29 @@ ContactDB/fast:
 	$(MAKE) $(MAKESILENT) -f Contact_With_DB/CMakeFiles/ContactDB.dir/build.make Contact_With_DB/CMakeFiles/ContactDB.dir/build
 .PHONY : ContactDB/fast
 
-Main.o: Main.cpp.o
-.PHONY : Main.o
+draw.o: draw.cpp.o
+.PHONY : draw.o
 
 # target to build an object file
-Main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program.dir/build.make CMakeFiles/Program.dir/Main.cpp.o
-.PHONY : Main.cpp.o
+draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program.dir/build.make CMakeFiles/Program.dir/draw.cpp.o
+.PHONY : draw.cpp.o
 
-Main.i: Main.cpp.i
-.PHONY : Main.i
+draw.i: draw.cpp.i
+.PHONY : draw.i
 
 # target to preprocess a source file
-Main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program.dir/build.make CMakeFiles/Program.dir/Main.cpp.i
-.PHONY : Main.cpp.i
+draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program.dir/build.make CMakeFiles/Program.dir/draw.cpp.i
+.PHONY : draw.cpp.i
 
-Main.s: Main.cpp.s
-.PHONY : Main.s
+draw.s: draw.cpp.s
+.PHONY : draw.s
 
 # target to generate assembly for a file
-Main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program.dir/build.make CMakeFiles/Program.dir/Main.cpp.s
-.PHONY : Main.cpp.s
+draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program.dir/build.make CMakeFiles/Program.dir/draw.cpp.s
+.PHONY : draw.cpp.s
 
 # Help Target
 help:
@@ -200,13 +213,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... copy_resources"
 	@echo "... ContactDB"
 	@echo "... DestinationFunctions"
 	@echo "... DrawFunctions"
 	@echo "... Program"
-	@echo "... Main.o"
-	@echo "... Main.i"
-	@echo "... Main.s"
+	@echo "... draw.o"
+	@echo "... draw.i"
+	@echo "... draw.s"
 .PHONY : help
 
 

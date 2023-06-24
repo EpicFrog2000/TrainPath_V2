@@ -1,7 +1,7 @@
 Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o: \
- /Dysk_przenośny/Programowanie/C++/TrainPath_V2/Drawing_Map/Map_Draw.cpp \
+ /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/Drawing_Map/Map_Draw.cpp \
  /usr/include/stdc-predef.h \
- /Dysk_przenośny/Programowanie/C++/TrainPath_V2/Drawing_Map/Map_Draw.hpp \
+ /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/Drawing_Map/Map_Draw.hpp \
  /usr/include/c++/13.1.1/iostream \
  /usr/include/c++/13.1.1/bits/requires_hosted.h \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h \

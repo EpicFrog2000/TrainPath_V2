@@ -1,4 +1,4 @@
-# Install script for directory: /Dysk_przenośny/Programowanie/C++/TrainPath_V2
+# Install script for directory: /Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,18 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/Drawing_Map/cmake_install.cmake")
-endif()
+  # Include the install script for each subdirectory.
+  include("/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Drawing_Map/cmake_install.cmake")
+  include("/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/destination_functions/cmake_install.cmake")
+  include("/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Contact_With_DB/cmake_install.cmake")
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/destination_functions/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/Contact_With_DB/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -65,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

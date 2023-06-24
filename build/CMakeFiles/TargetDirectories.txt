@@ -1,12 +1,13 @@
-/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/CMakeFiles/Program.dir
-/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/CMakeFiles/edit_cache.dir
-/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/CMakeFiles/rebuild_cache.dir
-/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/Drawing_Map/CMakeFiles/DrawFunctions.dir
-/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/Drawing_Map/CMakeFiles/edit_cache.dir
-/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/Drawing_Map/CMakeFiles/rebuild_cache.dir
-/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/destination_functions/CMakeFiles/DestinationFunctions.dir
-/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/destination_functions/CMakeFiles/edit_cache.dir
-/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/destination_functions/CMakeFiles/rebuild_cache.dir
-/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/Contact_With_DB/CMakeFiles/ContactDB.dir
-/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/Contact_With_DB/CMakeFiles/edit_cache.dir
-/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/Contact_With_DB/CMakeFiles/rebuild_cache.dir
+/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles/Program.dir
+/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles/copy_resources.dir
+/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles/edit_cache.dir
+/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles/rebuild_cache.dir
+/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Drawing_Map/CMakeFiles/DrawFunctions.dir
+/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Drawing_Map/CMakeFiles/edit_cache.dir
+/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Drawing_Map/CMakeFiles/rebuild_cache.dir
+/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/destination_functions/CMakeFiles/DestinationFunctions.dir
+/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/destination_functions/CMakeFiles/edit_cache.dir
+/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/destination_functions/CMakeFiles/rebuild_cache.dir
+/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Contact_With_DB/CMakeFiles/ContactDB.dir
+/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Contact_With_DB/CMakeFiles/edit_cache.dir
+/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Contact_With_DB/CMakeFiles/rebuild_cache.dir

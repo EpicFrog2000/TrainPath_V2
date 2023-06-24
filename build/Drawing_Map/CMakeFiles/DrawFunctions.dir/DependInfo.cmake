@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Dysk_przenośny/Programowanie/C++/TrainPath_V2/Drawing_Map/Map_Draw.cpp" "Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o" "gcc" "Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o.d"
+  "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/Drawing_Map/Map_Draw.cpp" "Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o" "gcc" "Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

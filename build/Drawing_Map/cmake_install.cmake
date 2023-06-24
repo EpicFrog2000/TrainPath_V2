@@ -1,4 +1,4 @@
-# Install script for directory: /Dysk_przenośny/Programowanie/C++/TrainPath_V2/Drawing_Map
+# Install script for directory: /Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/Drawing_Map
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
