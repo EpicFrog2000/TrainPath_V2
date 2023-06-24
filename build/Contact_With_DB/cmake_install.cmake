@@ -1,4 +1,4 @@
-# Install script for directory: /Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/Contact_With_DB
+# Install script for directory: /Dysk_przenośny/Programowanie/C++/TrainPath_V2/Contact_With_DB
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

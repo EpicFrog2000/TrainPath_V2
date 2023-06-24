@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś"
+CMAKE_SOURCE_DIR = /Dysk_przenośny/Programowanie/C++/TrainPath_V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build"
+CMAKE_BINARY_DIR = /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Drawing_Map//CMakeFiles/progress.marks"
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Drawing_Map/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" 0
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(CMAKE_COMMAND) -E cmake_progress_start /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/CMakeFiles /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/Drawing_Map//CMakeFiles/progress.marks
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Drawing_Map/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Drawing_Map/clean
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Drawing_Map/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Drawing_Map/preinstall
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Drawing_Map/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Drawing_Map/preinstall
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Drawing_Map/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Drawing_Map/CMakeFiles/DrawFunctions.dir/rule:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Drawing_Map/CMakeFiles/DrawFunctions.dir/rule
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Drawing_Map/CMakeFiles/DrawFunctions.dir/rule
 .PHONY : Drawing_Map/CMakeFiles/DrawFunctions.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ DrawFunctions: Drawing_Map/CMakeFiles/DrawFunctions.dir/rule
 
 # fast build rule for target.
 DrawFunctions/fast:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f Drawing_Map/CMakeFiles/DrawFunctions.dir/build.make Drawing_Map/CMakeFiles/DrawFunctions.dir/build
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f Drawing_Map/CMakeFiles/DrawFunctions.dir/build.make Drawing_Map/CMakeFiles/DrawFunctions.dir/build
 .PHONY : DrawFunctions/fast
 
 Map_Draw.o: Map_Draw.cpp.o
@@ -135,7 +135,7 @@ Map_Draw.o: Map_Draw.cpp.o
 
 # target to build an object file
 Map_Draw.cpp.o:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f Drawing_Map/CMakeFiles/DrawFunctions.dir/build.make Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f Drawing_Map/CMakeFiles/DrawFunctions.dir/build.make Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o
 .PHONY : Map_Draw.cpp.o
 
 Map_Draw.i: Map_Draw.cpp.i
@@ -143,7 +143,7 @@ Map_Draw.i: Map_Draw.cpp.i
 
 # target to preprocess a source file
 Map_Draw.cpp.i:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f Drawing_Map/CMakeFiles/DrawFunctions.dir/build.make Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.i
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f Drawing_Map/CMakeFiles/DrawFunctions.dir/build.make Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.i
 .PHONY : Map_Draw.cpp.i
 
 Map_Draw.s: Map_Draw.cpp.s
@@ -151,7 +151,7 @@ Map_Draw.s: Map_Draw.cpp.s
 
 # target to generate assembly for a file
 Map_Draw.cpp.s:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(MAKE) $(MAKESILENT) -f Drawing_Map/CMakeFiles/DrawFunctions.dir/build.make Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.s
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(MAKE) $(MAKESILENT) -f Drawing_Map/CMakeFiles/DrawFunctions.dir/build.make Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.s
 .PHONY : Map_Draw.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

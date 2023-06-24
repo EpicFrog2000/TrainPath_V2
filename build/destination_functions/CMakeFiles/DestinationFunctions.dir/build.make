@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś"
+CMAKE_SOURCE_DIR = /Dysk_przenośny/Programowanie/C++/TrainPath_V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build"
+CMAKE_BINARY_DIR = /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build
 
 # Include any dependencies generated for this target.
 include destination_functions/CMakeFiles/DestinationFunctions.dir/depend.make
@@ -70,18 +70,18 @@ include destination_functions/CMakeFiles/DestinationFunctions.dir/progress.make
 include destination_functions/CMakeFiles/DestinationFunctions.dir/flags.make
 
 destination_functions/CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.o: destination_functions/CMakeFiles/DestinationFunctions.dir/flags.make
-destination_functions/CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.o: /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/destination_functions/Coordinates_Calculations.cpp
+destination_functions/CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.o: /Dysk_przenośny/Programowanie/C++/TrainPath_V2/destination_functions/Coordinates_Calculations.cpp
 destination_functions/CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.o: destination_functions/CMakeFiles/DestinationFunctions.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object destination_functions/CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.o"
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/destination_functions" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT destination_functions/CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.o -MF CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.o.d -o CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.o -c "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/destination_functions/Coordinates_Calculations.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object destination_functions/CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.o"
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/destination_functions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT destination_functions/CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.o -MF CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.o.d -o CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.o -c /Dysk_przenośny/Programowanie/C++/TrainPath_V2/destination_functions/Coordinates_Calculations.cpp
 
 destination_functions/CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.i"
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/destination_functions" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/destination_functions/Coordinates_Calculations.cpp" > CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.i
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/destination_functions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Dysk_przenośny/Programowanie/C++/TrainPath_V2/destination_functions/Coordinates_Calculations.cpp > CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.i
 
 destination_functions/CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.s"
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/destination_functions" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/destination_functions/Coordinates_Calculations.cpp" -o CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.s
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/destination_functions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Dysk_przenośny/Programowanie/C++/TrainPath_V2/destination_functions/Coordinates_Calculations.cpp -o CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.s
 
 # Object files for target DestinationFunctions
 DestinationFunctions_OBJECTS = \
@@ -93,19 +93,19 @@ DestinationFunctions_EXTERNAL_OBJECTS =
 destination_functions/libDestinationFunctions.a: destination_functions/CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.o
 destination_functions/libDestinationFunctions.a: destination_functions/CMakeFiles/DestinationFunctions.dir/build.make
 destination_functions/libDestinationFunctions.a: destination_functions/CMakeFiles/DestinationFunctions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libDestinationFunctions.a"
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/destination_functions" && $(CMAKE_COMMAND) -P CMakeFiles/DestinationFunctions.dir/cmake_clean_target.cmake
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/destination_functions" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DestinationFunctions.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libDestinationFunctions.a"
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/destination_functions && $(CMAKE_COMMAND) -P CMakeFiles/DestinationFunctions.dir/cmake_clean_target.cmake
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/destination_functions && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DestinationFunctions.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 destination_functions/CMakeFiles/DestinationFunctions.dir/build: destination_functions/libDestinationFunctions.a
 .PHONY : destination_functions/CMakeFiles/DestinationFunctions.dir/build
 
 destination_functions/CMakeFiles/DestinationFunctions.dir/clean:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/destination_functions" && $(CMAKE_COMMAND) -P CMakeFiles/DestinationFunctions.dir/cmake_clean.cmake
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/destination_functions && $(CMAKE_COMMAND) -P CMakeFiles/DestinationFunctions.dir/cmake_clean.cmake
 .PHONY : destination_functions/CMakeFiles/DestinationFunctions.dir/clean
 
 destination_functions/CMakeFiles/DestinationFunctions.dir/depend:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/destination_functions" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/destination_functions" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/destination_functions/CMakeFiles/DestinationFunctions.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Dysk_przenośny/Programowanie/C++/TrainPath_V2 /Dysk_przenośny/Programowanie/C++/TrainPath_V2/destination_functions /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/destination_functions /Dysk_przenośny/Programowanie/C++/TrainPath_V2/build/destination_functions/CMakeFiles/DestinationFunctions.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : destination_functions/CMakeFiles/DestinationFunctions.dir/depend
 
