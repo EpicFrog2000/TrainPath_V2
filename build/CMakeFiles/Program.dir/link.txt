@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Program.dir/Main.cpp.o -o Program  -L/usr/lib/ -lmariadb Drawing_Map/libDrawFunctions.a Contact_With_DB/libContactDB.a destination_functions/libDestinationFunctions.a 
+/usr/bin/c++ CMakeFiles/Program.dir/draw.cpp.o -o Program  -L/usr/lib/ -lmariadb Drawing_Map/libDrawFunctions.a Contact_With_DB/libContactDB.a destination_functions/libDestinationFunctions.a -lglfw -lGL -lGLEW -lglfw /usr/lib/libOpenGL.so /usr/lib/libGLX.so /usr/lib/libGLU.so /usr/lib/libGLEW.so 

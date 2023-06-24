@@ -1,0 +1,89 @@
+#include "widget.h"
+
+Widget::Widget(QWidget *parent)
+    : QWidget(parent)
+{
+    setWindowTitle("Train Pathing App");
+    QHBoxLayout *hbox = new QHBoxLayout();
+    QVBoxLayout *vbox = new QVBoxLayout();
+    QGridLayout *grid = new QGridLayout();
+    grid->addWidget(createOptionsGroup(), 0,0);
+    grid->addWidget(createInputGroup(), 1,0);
+    hbox->addLayout(grid);
+    vbox->addWidget(textArea());
+    vbox->addWidget(termianlArea());
+    hbox->addLayout(vbox);
+    setLayout(hbox);
+    setFixedHeight(800);
+}
+
+QGroupBox *Widget::createOptionsGroup()
+{
+    QGroupBox *groupBox = new QGroupBox(tr("Opcje"));
+    groupBox->setFixedWidth(200);
+
+
+    return groupBox;
+}
+
+QGroupBox *Widget::createInputGroup()
+{
+    QGroupBox *groupBox = new QGroupBox(tr("Input"));
+    groupBox->setFixedWidth(200);
+    QLabel *lb1 = new QLabel("Z: ");
+    QLabel *lb2 = new QLabel("Do: ");
+    QVBoxLayout *vbox = new QVBoxLayout();
+    QHBoxLayout *hboxz = new QHBoxLayout();
+    QHBoxLayout *hboxd = new QHBoxLayout();
+    QTextEdit *textz = new QTextEdit();
+    QTextEdit *textd = new QTextEdit();
+
+    textd->setFixedHeight(30);
+    textz->setFixedHeight(30);
+
+    hboxz->addWidget(lb1);
+    hboxz->addWidget(textz);
+
+    hboxd->addWidget(lb2);
+    hboxd->addWidget(textd);
+
+    vbox->addLayout(hboxz);
+    vbox->addLayout(hboxd);
+
+    groupBox->setLayout(vbox);
+    groupBox->setFixedHeight(300);
+    return groupBox;
+}
+
+QPlainTextEdit *Widget::textArea()
+{
+    QPlainTextEdit *textArea = new QPlainTextEdit();
+    //textArea->setReadOnly(true);
+
+    QFont font = textArea->font();
+    font.setPointSize(font.pointSize() * 0.45); // Multiply the current point size by 2
+    textArea->setFont(font);
+
+    QFontMetrics fm(font);
+    int lineHeight = fm.lineSpacing();
+    int minWidth = 300 * fm.horizontalAdvance('x');
+    int minHeight = 100 * lineHeight;
+    textArea->setMinimumSize(minWidth, minHeight);
+    textArea->setMaximumSize(minWidth, minHeight);
+
+    return textArea;
+}
+
+QPlainTextEdit *Widget::termianlArea()
+{
+    QPlainTextEdit *textArea = new QPlainTextEdit();
+    //textArea->setReadOnly(true);
+    textArea->setMinimumHeight(50);
+
+    return textArea;
+}
+
+Widget::~Widget()
+{
+}
+
