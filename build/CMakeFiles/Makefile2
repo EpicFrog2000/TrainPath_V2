@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś"
+CMAKE_SOURCE_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build"
+CMAKE_BINARY_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -139,14 +139,14 @@ CMakeFiles/Program.dir/all: destination_functions/CMakeFiles/DestinationFunction
 CMakeFiles/Program.dir/all: Contact_With_DB/CMakeFiles/ContactDB.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program.dir/build.make CMakeFiles/Program.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Program.dir/build.make CMakeFiles/Program.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" --progress-num=7,8 "Built target Program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" --progress-num=7,8 "Built target Program"
 .PHONY : CMakeFiles/Program.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Program.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" 9
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Program.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" 0
 .PHONY : CMakeFiles/Program.dir/rule
 
 # Convenience name for target.
@@ -165,14 +165,14 @@ CMakeFiles/Program.dir/clean:
 CMakeFiles/copy_resources.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_resources.dir/build.make CMakeFiles/copy_resources.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_resources.dir/build.make CMakeFiles/copy_resources.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" --progress-num=9 "Built target copy_resources"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" --progress-num=9 "Built target copy_resources"
 .PHONY : CMakeFiles/copy_resources.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/copy_resources.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/copy_resources.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" 0
 .PHONY : CMakeFiles/copy_resources.dir/rule
 
 # Convenience name for target.
@@ -191,14 +191,14 @@ CMakeFiles/copy_resources.dir/clean:
 Drawing_Map/CMakeFiles/DrawFunctions.dir/all:
 	$(MAKE) $(MAKESILENT) -f Drawing_Map/CMakeFiles/DrawFunctions.dir/build.make Drawing_Map/CMakeFiles/DrawFunctions.dir/depend
 	$(MAKE) $(MAKESILENT) -f Drawing_Map/CMakeFiles/DrawFunctions.dir/build.make Drawing_Map/CMakeFiles/DrawFunctions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" --progress-num=5,6 "Built target DrawFunctions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" --progress-num=5,6 "Built target DrawFunctions"
 .PHONY : Drawing_Map/CMakeFiles/DrawFunctions.dir/all
 
 # Build rule for subdir invocation for target.
 Drawing_Map/CMakeFiles/DrawFunctions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Drawing_Map/CMakeFiles/DrawFunctions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" 0
 .PHONY : Drawing_Map/CMakeFiles/DrawFunctions.dir/rule
 
 # Convenience name for target.
@@ -217,14 +217,14 @@ Drawing_Map/CMakeFiles/DrawFunctions.dir/clean:
 destination_functions/CMakeFiles/DestinationFunctions.dir/all:
 	$(MAKE) $(MAKESILENT) -f destination_functions/CMakeFiles/DestinationFunctions.dir/build.make destination_functions/CMakeFiles/DestinationFunctions.dir/depend
 	$(MAKE) $(MAKESILENT) -f destination_functions/CMakeFiles/DestinationFunctions.dir/build.make destination_functions/CMakeFiles/DestinationFunctions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" --progress-num=3,4 "Built target DestinationFunctions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" --progress-num=3,4 "Built target DestinationFunctions"
 .PHONY : destination_functions/CMakeFiles/DestinationFunctions.dir/all
 
 # Build rule for subdir invocation for target.
 destination_functions/CMakeFiles/DestinationFunctions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 destination_functions/CMakeFiles/DestinationFunctions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" 0
 .PHONY : destination_functions/CMakeFiles/DestinationFunctions.dir/rule
 
 # Convenience name for target.
@@ -243,14 +243,14 @@ destination_functions/CMakeFiles/DestinationFunctions.dir/clean:
 Contact_With_DB/CMakeFiles/ContactDB.dir/all:
 	$(MAKE) $(MAKESILENT) -f Contact_With_DB/CMakeFiles/ContactDB.dir/build.make Contact_With_DB/CMakeFiles/ContactDB.dir/depend
 	$(MAKE) $(MAKESILENT) -f Contact_With_DB/CMakeFiles/ContactDB.dir/build.make Contact_With_DB/CMakeFiles/ContactDB.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" --progress-num=1,2 "Built target ContactDB"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" --progress-num=1,2 "Built target ContactDB"
 .PHONY : Contact_With_DB/CMakeFiles/ContactDB.dir/all
 
 # Build rule for subdir invocation for target.
 Contact_With_DB/CMakeFiles/ContactDB.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Contact_With_DB/CMakeFiles/ContactDB.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" 0
 .PHONY : Contact_With_DB/CMakeFiles/ContactDB.dir/rule
 
 # Convenience name for target.

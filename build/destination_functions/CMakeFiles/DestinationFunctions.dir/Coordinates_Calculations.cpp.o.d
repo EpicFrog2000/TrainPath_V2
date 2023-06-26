@@ -1,7 +1,7 @@
 destination_functions/CMakeFiles/DestinationFunctions.dir/Coordinates_Calculations.cpp.o: \
- /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/destination_functions/Coordinates_Calculations.cpp \
+ /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/TrainPath_V2/destination_functions/Coordinates_Calculations.cpp \
  /usr/include/stdc-predef.h \
- /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/destination_functions/Coordinates_Calculations.hpp \
+ /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/TrainPath_V2/destination_functions/Coordinates_Calculations.hpp \
  /usr/include/c++/13.1.1/string \
  /usr/include/c++/13.1.1/bits/requires_hosted.h \
  /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/c++config.h \

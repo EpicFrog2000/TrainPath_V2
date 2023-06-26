@@ -1,5 +1,5 @@
 CMakeFiles/Program.dir/draw.cpp.o: \
- /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/draw.cpp \
+ /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/TrainPath_V2/draw.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
@@ -204,7 +204,7 @@ CMakeFiles/Program.dir/draw.cpp.o: \
  /usr/include/glm/detail/type_half.hpp \
  /usr/include/glm/detail/type_half.inl /usr/include/glm/integer.hpp \
  /usr/include/glm/detail/func_integer.inl \
- /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/shader.cpp \
+ /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/TrainPath_V2/shader.cpp \
  /usr/include/c++/13.1.1/string /usr/include/c++/13.1.1/bits/stringfwd.h \
  /usr/include/c++/13.1.1/bits/memoryfwd.h \
  /usr/include/c++/13.1.1/bits/char_traits.h \
@@ -301,11 +301,11 @@ CMakeFiles/Program.dir/draw.cpp.o: \
  /usr/include/c++/13.1.1/pstl/execution_defs.h \
  /usr/include/c++/13.1.1/sstream /usr/include/c++/13.1.1/bits/sstream.tcc \
  /usr/include/string.h /usr/include/strings.h \
- /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/Contact_With_DB/contact_with_db.hpp \
+ /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/TrainPath_V2/Contact_With_DB/contact_with_db.hpp \
  /usr/include/mysql/mysql.h /usr/include/mysql/mariadb_com.h \
  /usr/include/mysql/mariadb_version.h /usr/include/mysql/ma_list.h \
  /usr/include/mysql/mariadb_ctype.h /usr/include/mysql/mariadb_stmt.h \
- /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/destination_functions/Coordinates_Calculations.hpp \
+ /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/TrainPath_V2/destination_functions/Coordinates_Calculations.hpp \
  /usr/include/c++/13.1.1/set /usr/include/c++/13.1.1/bits/stl_tree.h \
  /usr/include/c++/13.1.1/ext/aligned_buffer.h \
  /usr/include/c++/13.1.1/bits/node_handle.h \

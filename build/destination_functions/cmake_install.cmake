@@ -1,4 +1,4 @@
-# Install script for directory: /Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/destination_functions
+# Install script for directory: /Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/destination_functions
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

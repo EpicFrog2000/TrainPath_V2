@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś"
+CMAKE_SOURCE_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build"
+CMAKE_BINARY_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build"
 
 # Include any dependencies generated for this target.
 include Contact_With_DB/CMakeFiles/ContactDB.dir/depend.make
@@ -70,18 +70,18 @@ include Contact_With_DB/CMakeFiles/ContactDB.dir/progress.make
 include Contact_With_DB/CMakeFiles/ContactDB.dir/flags.make
 
 Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.o: Contact_With_DB/CMakeFiles/ContactDB.dir/flags.make
-Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.o: /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/Contact_With_DB/contact_with_db.cpp
+Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.o: /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/TrainPath_V2/Contact_With_DB/contact_with_db.cpp
 Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.o: Contact_With_DB/CMakeFiles/ContactDB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.o"
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Contact_With_DB" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.o -MF CMakeFiles/ContactDB.dir/contact_with_db.cpp.o.d -o CMakeFiles/ContactDB.dir/contact_with_db.cpp.o -c "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/Contact_With_DB/contact_with_db.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.o"
+	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/Contact_With_DB" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.o -MF CMakeFiles/ContactDB.dir/contact_with_db.cpp.o.d -o CMakeFiles/ContactDB.dir/contact_with_db.cpp.o -c "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/Contact_With_DB/contact_with_db.cpp"
 
 Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ContactDB.dir/contact_with_db.cpp.i"
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Contact_With_DB" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/Contact_With_DB/contact_with_db.cpp" > CMakeFiles/ContactDB.dir/contact_with_db.cpp.i
+	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/Contact_With_DB" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/Contact_With_DB/contact_with_db.cpp" > CMakeFiles/ContactDB.dir/contact_with_db.cpp.i
 
 Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ContactDB.dir/contact_with_db.cpp.s"
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Contact_With_DB" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/Contact_With_DB/contact_with_db.cpp" -o CMakeFiles/ContactDB.dir/contact_with_db.cpp.s
+	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/Contact_With_DB" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/Contact_With_DB/contact_with_db.cpp" -o CMakeFiles/ContactDB.dir/contact_with_db.cpp.s
 
 # Object files for target ContactDB
 ContactDB_OBJECTS = \
@@ -93,19 +93,19 @@ ContactDB_EXTERNAL_OBJECTS =
 Contact_With_DB/libContactDB.a: Contact_With_DB/CMakeFiles/ContactDB.dir/contact_with_db.cpp.o
 Contact_With_DB/libContactDB.a: Contact_With_DB/CMakeFiles/ContactDB.dir/build.make
 Contact_With_DB/libContactDB.a: Contact_With_DB/CMakeFiles/ContactDB.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libContactDB.a"
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Contact_With_DB" && $(CMAKE_COMMAND) -P CMakeFiles/ContactDB.dir/cmake_clean_target.cmake
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Contact_With_DB" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ContactDB.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libContactDB.a"
+	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/Contact_With_DB" && $(CMAKE_COMMAND) -P CMakeFiles/ContactDB.dir/cmake_clean_target.cmake
+	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/Contact_With_DB" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ContactDB.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Contact_With_DB/CMakeFiles/ContactDB.dir/build: Contact_With_DB/libContactDB.a
 .PHONY : Contact_With_DB/CMakeFiles/ContactDB.dir/build
 
 Contact_With_DB/CMakeFiles/ContactDB.dir/clean:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Contact_With_DB" && $(CMAKE_COMMAND) -P CMakeFiles/ContactDB.dir/cmake_clean.cmake
+	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/Contact_With_DB" && $(CMAKE_COMMAND) -P CMakeFiles/ContactDB.dir/cmake_clean.cmake
 .PHONY : Contact_With_DB/CMakeFiles/ContactDB.dir/clean
 
 Contact_With_DB/CMakeFiles/ContactDB.dir/depend:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/Contact_With_DB" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Contact_With_DB" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Contact_With_DB/CMakeFiles/ContactDB.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/Contact_With_DB" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/Contact_With_DB" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/Contact_With_DB/CMakeFiles/ContactDB.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : Contact_With_DB/CMakeFiles/ContactDB.dir/depend
 

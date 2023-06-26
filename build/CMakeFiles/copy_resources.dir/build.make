@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś"
+CMAKE_SOURCE_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build"
+CMAKE_BINARY_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build"
 
 # Utility rule file for copy_resources.
 
@@ -67,9 +67,9 @@ include CMakeFiles/copy_resources.dir/compiler_depend.make
 include CMakeFiles/copy_resources.dir/progress.make
 
 CMakeFiles/copy_resources:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Copying resources into binary directory"
-	/usr/bin/cmake -E copy /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/SimpleVertexShader.vertexshader /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/build/SimpleVertexShader.vertexshader
-	/usr/bin/cmake -E copy /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/SimpleFragmentShader.fragmentshader /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/build/SimpleFragmentShader.fragmentshader
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Copying resources into binary directory"
+	/usr/bin/cmake -E copy /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/TrainPath_V2/SimpleVertexShader.vertexshader /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/TrainPath_V2/build/SimpleVertexShader.vertexshader
+	/usr/bin/cmake -E copy /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/TrainPath_V2/SimpleFragmentShader.fragmentshader /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/TrainPath_V2/build/SimpleFragmentShader.fragmentshader
 
 copy_resources: CMakeFiles/copy_resources
 copy_resources: CMakeFiles/copy_resources.dir/build.make
@@ -84,6 +84,6 @@ CMakeFiles/copy_resources.dir/clean:
 .PHONY : CMakeFiles/copy_resources.dir/clean
 
 CMakeFiles/copy_resources.dir/depend:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles/copy_resources.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles/copy_resources.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/copy_resources.dir/depend
 

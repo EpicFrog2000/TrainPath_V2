@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś"
+CMAKE_SOURCE_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build"
+CMAKE_BINARY_DIR = "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build"
 
 # Include any dependencies generated for this target.
 include Drawing_Map/CMakeFiles/DrawFunctions.dir/depend.make
@@ -70,18 +70,18 @@ include Drawing_Map/CMakeFiles/DrawFunctions.dir/progress.make
 include Drawing_Map/CMakeFiles/DrawFunctions.dir/flags.make
 
 Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o: Drawing_Map/CMakeFiles/DrawFunctions.dir/flags.make
-Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o: /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/Drawing_Map/Map_Draw.cpp
+Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o: /Dysk_przenośny/Programowanie/C++/OpenGL/Moje\ templatki/rysowanie\ czegoś/TrainPath_V2/Drawing_Map/Map_Draw.cpp
 Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o: Drawing_Map/CMakeFiles/DrawFunctions.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o"
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Drawing_Map" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o -MF CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o.d -o CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o -c "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/Drawing_Map/Map_Draw.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o"
+	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/Drawing_Map" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o -MF CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o.d -o CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o -c "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/Drawing_Map/Map_Draw.cpp"
 
 Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.i"
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Drawing_Map" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/Drawing_Map/Map_Draw.cpp" > CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.i
+	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/Drawing_Map" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/Drawing_Map/Map_Draw.cpp" > CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.i
 
 Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.s"
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Drawing_Map" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/Drawing_Map/Map_Draw.cpp" -o CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.s
+	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/Drawing_Map" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/Drawing_Map/Map_Draw.cpp" -o CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.s
 
 # Object files for target DrawFunctions
 DrawFunctions_OBJECTS = \
@@ -93,19 +93,19 @@ DrawFunctions_EXTERNAL_OBJECTS =
 Drawing_Map/libDrawFunctions.a: Drawing_Map/CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o
 Drawing_Map/libDrawFunctions.a: Drawing_Map/CMakeFiles/DrawFunctions.dir/build.make
 Drawing_Map/libDrawFunctions.a: Drawing_Map/CMakeFiles/DrawFunctions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libDrawFunctions.a"
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Drawing_Map" && $(CMAKE_COMMAND) -P CMakeFiles/DrawFunctions.dir/cmake_clean_target.cmake
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Drawing_Map" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DrawFunctions.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libDrawFunctions.a"
+	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/Drawing_Map" && $(CMAKE_COMMAND) -P CMakeFiles/DrawFunctions.dir/cmake_clean_target.cmake
+	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/Drawing_Map" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DrawFunctions.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Drawing_Map/CMakeFiles/DrawFunctions.dir/build: Drawing_Map/libDrawFunctions.a
 .PHONY : Drawing_Map/CMakeFiles/DrawFunctions.dir/build
 
 Drawing_Map/CMakeFiles/DrawFunctions.dir/clean:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Drawing_Map" && $(CMAKE_COMMAND) -P CMakeFiles/DrawFunctions.dir/cmake_clean.cmake
+	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/Drawing_Map" && $(CMAKE_COMMAND) -P CMakeFiles/DrawFunctions.dir/cmake_clean.cmake
 .PHONY : Drawing_Map/CMakeFiles/DrawFunctions.dir/clean
 
 Drawing_Map/CMakeFiles/DrawFunctions.dir/depend:
-	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/Drawing_Map" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Drawing_Map" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/build/Drawing_Map/CMakeFiles/DrawFunctions.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/Drawing_Map" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/Drawing_Map" "/Dysk_przenośny/Programowanie/C++/OpenGL/Moje templatki/rysowanie czegoś/TrainPath_V2/build/Drawing_Map/CMakeFiles/DrawFunctions.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : Drawing_Map/CMakeFiles/DrawFunctions.dir/depend
 

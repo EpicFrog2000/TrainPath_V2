@@ -59,7 +59,7 @@ int main(void)
 	GLuint programID = LoadShaders("SimpleVertexShader.vertexshader", "SimpleFragmentShader.fragmentshader");
 
 	std::vector<std::pair<std::string, std::pair<int, int>>> allStations = GetAllStations();
-	std::vector<std::pair<int, int>> firstStation = GetOneStationCoords("Zakopane", allStations);
+	std::vector<std::pair<int, int>> firstStation = GetOneStationCoords("Kalisz", allStations);
 	std::vector<std::pair<int, int>> secondStation = GetOneStationCoords("Gdańsk", allStations);
 	const int ODCHYLENIE = 3;
 	std::set<std::pair<int, int>> sortedStations = SortStationsByDistance(GetStationsFromArea(allStations, getPointsBetweenTwoStations(firstStation, secondStation), ODCHYLENIE), firstStation, secondStation);
@@ -84,16 +84,24 @@ int main(void)
 		glBindBuffer(GL_ARRAY_BUFFER, allstations_buffer);
 		x = static_cast<float>(station.second.first) / 100;
 		y = static_cast<float>(station.second.second) / 100;
-		vertexes += 3;
+		vertexes += 6;
 		GLfloat newData[] = {
-			x - 0.005f,	y - 0.005f,	0.0f,
-			x + 0.005f,	y - 0.005f,	0.0f,
-			x - 0.005f,	y + 0.005f,	0.0f,
+			x - 0.004f,	y - 0.004f,	0.0f,
+			x + 0.004f,	y - 0.004f,	0.0f,
+			x - 0.004f,	y + 0.004f,	0.0f,
+
+			x + 0.004f,	y - 0.004f,	0.0f,
+			x + 0.004f,	y + 0.004f,	0.0f,
+			x - 0.004f,	y + 0.004f,	0.0f,
+
 		};
 		additionalData.insert(additionalData.end(), newData, newData + sizeof(newData) / sizeof(newData[0]));
 
 		glBindBuffer(GL_ARRAY_BUFFER, colors_buffer);
 		GLfloat newColorData[] = {
+			1.0f,0.0f,0.0f,
+			1.0f,0.0f,0.0f,
+			1.0f,0.0f,0.0f,
 			1.0f,0.0f,0.0f,
 			1.0f,0.0f,0.0f,
 			1.0f,0.0f,0.0f,
@@ -111,17 +119,24 @@ int main(void)
 		glBindBuffer(GL_ARRAY_BUFFER, PathPoints_buffer);
 		x = static_cast<float>(path.first) / 100;
 		y = static_cast<float>(path.second) / 100;
-		vertexes += 3;
+		vertexes += 6;
 		GLfloat newData[] = {
-			x - 0.005f,y - 0.005f,0.0f,
-			x + 0.005f,y - 0.005f,0.0f,
-			x - 0.005f,y + 0.005f,0.0f,
+			x - 0.004f,y - 0.004f,0.0f,
+			x + 0.004f,y - 0.004f,0.0f,
+			x - 0.004f,y + 0.004f,0.0f,
+
+			x + 0.004f,	y - 0.004f,	0.0f,
+			x + 0.004f,	y + 0.004f,	0.0f,
+			x - 0.004f,	y + 0.004f,	0.0f,
 
 		};
 		additionalData.insert(additionalData.end(), newData, newData + sizeof(newData) / sizeof(newData[0]));
 
 		glBindBuffer(GL_ARRAY_BUFFER, Pathcolors_buffer);
 		GLfloat newColorData[] = {
+			0.0f,0.0f,1.0f,
+			0.0f,0.0f,1.0f,
+			0.0f,0.0f,1.0f,
 			0.0f,0.0f,1.0f,
 			0.0f,0.0f,1.0f,
 			0.0f,0.0f,1.0f,
