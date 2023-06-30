@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDrawFunctions.a CMakeFiles/DrawFunctions.dir/DrawFunctions_autogen/mocs_compilation.cpp.o CMakeFiles/DrawFunctions.dir/Map_Draw.cpp.o
+/usr/bin/ranlib libDrawFunctions.a

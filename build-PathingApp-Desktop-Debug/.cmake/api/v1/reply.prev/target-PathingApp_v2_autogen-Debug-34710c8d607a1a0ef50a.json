@@ -1,0 +1,73 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "DrawFunctions::@7d1cb23dce8ad51d3992"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "DestinationFunctions::@08758c317464603469e5"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "ContactDB::@4212cc9c68a832ed150e"
+		}
+	],
+	"id" : "PathingApp_v2_autogen::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "PathingApp_v2_autogen",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Dysk_przeno\u015bny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/build-PathingApp-Desktop-Debug/CMakeFiles/PathingApp_v2_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Dysk_przeno\u015bny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/build-PathingApp-Desktop-Debug/CMakeFiles/PathingApp_v2_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

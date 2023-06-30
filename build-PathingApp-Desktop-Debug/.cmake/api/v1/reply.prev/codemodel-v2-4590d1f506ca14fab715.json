@@ -1,0 +1,175 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-7144c49509c73d88a533.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "Drawing_Map",
+					"jsonFile" : "directory-Drawing_Map-Debug-fc0c5f6d1a1b4d8bf2da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Drawing_Map",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "destination_functions",
+					"jsonFile" : "directory-destination_functions-Debug-59d3626045d1fb1c8e3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "destination_functions",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "Contact_With_DB",
+					"jsonFile" : "directory-Contact_With_DB-Debug-a793d9f150969b88d18e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Contact_With_DB",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "PathingApp_v2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "ContactDB::@4212cc9c68a832ed150e",
+					"jsonFile" : "target-ContactDB-Debug-6f7769cc5e9fe10994c6.json",
+					"name" : "ContactDB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ContactDB_autogen::@4212cc9c68a832ed150e",
+					"jsonFile" : "target-ContactDB_autogen-Debug-14bb91e353b9cc70d8d8.json",
+					"name" : "ContactDB_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "DestinationFunctions::@08758c317464603469e5",
+					"jsonFile" : "target-DestinationFunctions-Debug-6be585e7a9b9327d6464.json",
+					"name" : "DestinationFunctions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "DestinationFunctions_autogen::@08758c317464603469e5",
+					"jsonFile" : "target-DestinationFunctions_autogen-Debug-19551d560b96090adfcc.json",
+					"name" : "DestinationFunctions_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DrawFunctions::@7d1cb23dce8ad51d3992",
+					"jsonFile" : "target-DrawFunctions-Debug-07e19147c4ab4ecf636d.json",
+					"name" : "DrawFunctions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DrawFunctions_autogen::@7d1cb23dce8ad51d3992",
+					"jsonFile" : "target-DrawFunctions_autogen-Debug-078be2d1d6ce8210d243.json",
+					"name" : "DrawFunctions_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PathingApp_v2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PathingApp_v2-Debug-7c4b4548fac0c3037f50.json",
+					"name" : "PathingApp_v2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PathingApp_v2_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PathingApp_v2_autogen-Debug-34710c8d607a1a0ef50a.json",
+					"name" : "PathingApp_v2_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Dysk_przeno\u015bny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/build-PathingApp-Desktop-Debug",
+		"source" : "/Dysk_przeno\u015bny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
