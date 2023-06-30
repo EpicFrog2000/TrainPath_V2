@@ -110,7 +110,7 @@ double DistanceToLineSegment(int x, int y, int x1, int y1, int x2, int y2)
     return std::hypot(dx, dy); // Use hypot function to calculate the Euclidean distance
 }
 
-std::set<std::pair<int, int>> GetStationsFromArea(const std::vector<std::pair<std::string, std::pair<int, int>>>& allStations, const std::vector<std::pair<int, int>>& pathBetweenStations, const int& ODCHYLENIE)
+std::set<std::pair<int, int>> GetStationsFromArea(const std::vector<std::pair<std::string, std::pair<int, int>>>& allStations, const std::vector<std::pair<int, int>>& pathBetweenStations, int& ODCHYLENIE)
 {
     std::set<std::pair<int, int>> SetOfStationsOnPath;
 

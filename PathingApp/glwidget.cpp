@@ -10,8 +10,8 @@
 
 bool GLWidget::m_transparent = false;
 
-GLWidget::GLWidget(QString first, QString second, QWidget *parent)
-    : QOpenGLWidget(parent), first(first), second(second)
+GLWidget::GLWidget(QString first, QString second, int odchylenie, QWidget *parent)
+    : QOpenGLWidget(parent), first(first), second(second), odchylenie(odchylenie)
 {
     m_core = QSurfaceFormat::defaultFormat().profile() == QSurfaceFormat::CoreProfile;
     // --transparent causes the clear color to be transparent. Therefore, on systems that
@@ -90,8 +90,7 @@ void GLWidget::initializeGL()
 
     std::vector<std::pair<int, int>> firstStation = GetOneStationCoords(first.toStdString(), allStations);
     std::vector<std::pair<int, int>> secondStation = GetOneStationCoords(second.toStdString(), allStations);
-    const int ODCHYLENIE = 3;
-    std::set<std::pair<int, int>> sortedStations = SortStationsByDistance(GetStationsFromArea(allStations, getPointsBetweenTwoStations(firstStation, secondStation), ODCHYLENIE), firstStation, secondStation);
+    std::set<std::pair<int, int>> sortedStations = SortStationsByDistance(GetStationsFromArea(allStations, getPointsBetweenTwoStations(firstStation, secondStation), odchylenie), firstStation, secondStation);
     std::vector<std::pair<int, int>> PathPoints = GetPathBetweenMultipleStations(sortedStations);
 
     // Setup our vertex buffer object.

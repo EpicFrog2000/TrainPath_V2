@@ -406,4 +406,6 @@ CMakeFiles/PathingApp_v2.dir/PathingApp_v2_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtWidgets/qstyle.h /usr/include/qt6/QtWidgets/qtabbar.h \
  /usr/include/qt6/QtWidgets/qtabwidget.h \
  /usr/include/qt6/QtWidgets/qrubberband.h \
- /usr/include/qt6/QtCore/qabstractitemmodel.h
+ /usr/include/qt6/QtCore/qabstractitemmodel.h \
+ /usr/include/qt6/QtWidgets/QSpinBox \
+ /usr/include/qt6/QtWidgets/qspinbox.h

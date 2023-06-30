@@ -26,7 +26,7 @@ Widget::Widget(QWidget *parent)
     // Create the text area and terminal area widgets
     QPlainTextEdit *terminalArea = termianlArea();
 
-    glWidget = new GLWidget("Warszawa","Kraków");
+    glWidget = new GLWidget("Warszawa","Warszawa", 0);
     glWidget->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
     terminalArea->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
 
@@ -53,7 +53,16 @@ QGroupBox *Widget::createOptionsGroup()
 {
     QGroupBox *groupBox = new QGroupBox(tr("Opcje"));
     groupBox->setFixedWidth(200);
+    QVBoxLayout *vbox = new QVBoxLayout();
+    QLabel *lb1 = new QLabel("ODCHYLENIE:  ");
+    spin = new QSpinBox;
+    spin->setFocusPolicy(Qt::TabFocus);
+    QHBoxLayout *hbox1 = new QHBoxLayout();
+    hbox1->addWidget(lb1);
+    hbox1->addWidget(spin);
+    vbox->addLayout(hbox1);
 
+    groupBox->setLayout(vbox);
     return groupBox;
 }
 
@@ -116,14 +125,23 @@ void Widget::buttonClicked()
     QString first = start->currentText();
     QString second = end->currentText();
 
+
     // Remove the existing GLWidget from the layout
     vbox->removeWidget(glWidget);
     delete glWidget;
 
     // Recreate the GLWidget
-    glWidget = new GLWidget(first, second);
+    glWidget = new GLWidget(first, second, spin->value());
     glWidget->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
 
     // Add the new GLWidget back to the layout
     vbox->insertWidget(0, glWidget, 8);
+
+    //TODO
+    //Write path to console below glwidget (termianlArea)
+
+
+
+
+
 }

@@ -13,6 +13,7 @@
 #include <QPushButton>
 #include <iostream>
 #include <QComboBox>
+#include <QSpinBox>
 
 
 class Widget : public QWidget
@@ -26,6 +27,7 @@ public:
 
 public slots:
     void buttonClicked();
+
 private:
     QGroupBox *createOptionsGroup();
     QGroupBox *createInputGroup();
@@ -34,7 +36,10 @@ private:
     QVBoxLayout *vbox;
     QComboBox *start;
     QComboBox *end;
+    QSpinBox *spin;
 
+signals:
+    void wheelEventReceived(QWheelEvent *event);
 };
 
 #endif // WIDGET_H

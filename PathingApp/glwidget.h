@@ -11,7 +11,7 @@ class GLWidget : public QOpenGLWidget, protected QOpenGLFunctions
 {
     Q_OBJECT
 public:
-    GLWidget(QString first, QString second, QWidget *parent = nullptr);
+    GLWidget(QString first, QString second, int odchylenie , QWidget *parent = nullptr);
     ~GLWidget();
 
 public slots:
@@ -42,4 +42,5 @@ private:
     // Additional member variables to store values from another class
     QString first;
     QString second;
+    int odchylenie;
 };
