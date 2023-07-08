@@ -11,8 +11,7 @@ Widget::Widget(QWidget *parent)
 {
     setWindowTitle("Train Pathing App");
 
-    vbox = new QVBoxLayout();
-    QHBoxLayout *hbox = new QHBoxLayout();
+    hbox = new QHBoxLayout();
     QVBoxLayout *leftPanel = new QVBoxLayout();
 
     leftPanel->addWidget(createOptionsGroup());
@@ -114,7 +113,7 @@ void Widget::buttonClicked()
     QString first = start->currentText();
     QString second = end->currentText();
 
-    vbox->removeWidget(glWidget);
+    hbox->removeWidget(glWidget);
     delete glWidget;
 
     glWidget = new GLWidget(first, second, spin->value());
@@ -122,7 +121,7 @@ void Widget::buttonClicked()
     glWidget->setFixedHeight(1000);
     glWidget->setFixedWidth(1000);
     // Add the new GLWidget back to the layout
-    vbox->insertWidget(0, glWidget, 8);
+    hbox->insertWidget(1, glWidget);
 
     //TODO
     //Write path to console below glwidget (termianlArea)

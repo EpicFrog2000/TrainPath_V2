@@ -32,7 +32,7 @@ private:
     QGroupBox *createInputGroup();
     QPlainTextEdit *termianlArea();
     QPlainTextEdit *textArea;
-    QVBoxLayout *vbox;
+    QHBoxLayout *hbox;
     QComboBox *start;
     QComboBox *end;
     QSpinBox *spin;
