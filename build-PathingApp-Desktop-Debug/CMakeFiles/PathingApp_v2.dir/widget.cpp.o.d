@@ -412,4 +412,8 @@ CMakeFiles/PathingApp_v2.dir/widget.cpp.o: \
  /usr/include/mysql/mysql.h /usr/include/mysql/mariadb_com.h \
  /usr/include/mysql/mariadb_version.h /usr/include/mysql/ma_list.h \
  /usr/include/mysql/mariadb_ctype.h /usr/include/mysql/mariadb_stmt.h \
+ /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/destination_functions/Coordinates_Calculations.hpp \
+ /usr/include/c++/13.1.1/set /usr/include/c++/13.1.1/bits/stl_set.h \
+ /usr/include/c++/13.1.1/bits/stl_multiset.h \
+ /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/Drawing_Map/Map_Draw.hpp \
  /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/qdebug.h

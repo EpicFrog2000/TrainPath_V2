@@ -1,5 +1,8 @@
 /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/build-PathingApp-Desktop-Debug/PathingApp_v2_autogen/EWIEGA46WW/moc_glwidget.cpp: /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/glwidget.h \
   /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/build-PathingApp-Desktop-Debug/PathingApp_v2_autogen/moc_predefs.h \
+  /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/Contact_With_DB/contact_with_db.hpp \
+  /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/Drawing_Map/Map_Draw.hpp \
+  /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/destination_functions/Coordinates_Calculations.hpp \
   /usr/include/GL/gl.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -115,6 +118,7 @@
   /usr/include/c++/13.1.1/bits/hash_bytes.h \
   /usr/include/c++/13.1.1/bits/invoke.h \
   /usr/include/c++/13.1.1/bits/ios_base.h \
+  /usr/include/c++/13.1.1/bits/istream.tcc \
   /usr/include/c++/13.1.1/bits/iterator_concepts.h \
   /usr/include/c++/13.1.1/bits/list.tcc \
   /usr/include/c++/13.1.1/bits/locale_classes.h \
@@ -165,10 +169,12 @@
   /usr/include/c++/13.1.1/bits/stl_list.h \
   /usr/include/c++/13.1.1/bits/stl_map.h \
   /usr/include/c++/13.1.1/bits/stl_multimap.h \
+  /usr/include/c++/13.1.1/bits/stl_multiset.h \
   /usr/include/c++/13.1.1/bits/stl_numeric.h \
   /usr/include/c++/13.1.1/bits/stl_pair.h \
   /usr/include/c++/13.1.1/bits/stl_raw_storage_iter.h \
   /usr/include/c++/13.1.1/bits/stl_relops.h \
+  /usr/include/c++/13.1.1/bits/stl_set.h \
   /usr/include/c++/13.1.1/bits/stl_tempbuf.h \
   /usr/include/c++/13.1.1/bits/stl_tree.h \
   /usr/include/c++/13.1.1/bits/stl_uninitialized.h \
@@ -212,6 +218,8 @@
   /usr/include/c++/13.1.1/initializer_list \
   /usr/include/c++/13.1.1/ios \
   /usr/include/c++/13.1.1/iosfwd \
+  /usr/include/c++/13.1.1/iostream \
+  /usr/include/c++/13.1.1/istream \
   /usr/include/c++/13.1.1/iterator \
   /usr/include/c++/13.1.1/limits \
   /usr/include/c++/13.1.1/list \
@@ -226,6 +234,7 @@
   /usr/include/c++/13.1.1/pstl/glue_algorithm_defs.h \
   /usr/include/c++/13.1.1/pstl/glue_memory_defs.h \
   /usr/include/c++/13.1.1/pstl/glue_numeric_defs.h \
+  /usr/include/c++/13.1.1/set \
   /usr/include/c++/13.1.1/stdexcept \
   /usr/include/c++/13.1.1/streambuf \
   /usr/include/c++/13.1.1/string \
@@ -271,6 +280,12 @@
   /usr/include/linux/errno.h \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
+  /usr/include/mysql/ma_list.h \
+  /usr/include/mysql/mariadb_com.h \
+  /usr/include/mysql/mariadb_ctype.h \
+  /usr/include/mysql/mariadb_stmt.h \
+  /usr/include/mysql/mariadb_version.h \
+  /usr/include/mysql/mysql.h \
   /usr/include/pthread.h \
   /usr/include/qt6/QtCore/QObject \
   /usr/include/qt6/QtCore/q20memory.h \

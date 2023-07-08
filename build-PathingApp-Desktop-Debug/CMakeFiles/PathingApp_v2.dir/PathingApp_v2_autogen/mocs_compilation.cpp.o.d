@@ -340,6 +340,25 @@ CMakeFiles/PathingApp_v2.dir/PathingApp_v2_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtGui/qvector3d.h /usr/include/qt6/QtGui/qvectornd.h \
  /usr/include/qt6/QtGui/qvector4d.h /usr/include/qt6/QtGui/qquaternion.h \
  /usr/include/qt6/QtGui/qgenericmatrix.h \
+ /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/build-PathingApp-Desktop-Debug/PathingApp_v2_autogen/EWIEGA46WW/../../../PathingApp/Contact_With_DB/contact_with_db.hpp \
+ /usr/include/mysql/mysql.h /usr/include/mysql/mariadb_com.h \
+ /usr/include/mysql/mariadb_version.h /usr/include/mysql/ma_list.h \
+ /usr/include/mysql/mariadb_ctype.h /usr/include/mysql/mariadb_stmt.h \
+ /usr/include/c++/13.1.1/iostream /usr/include/c++/13.1.1/ostream \
+ /usr/include/c++/13.1.1/ios /usr/include/c++/13.1.1/bits/basic_ios.h \
+ /usr/include/c++/13.1.1/bits/locale_facets.h \
+ /usr/include/c++/13.1.1/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/13.1.1/bits/locale_facets.tcc \
+ /usr/include/c++/13.1.1/bits/basic_ios.tcc \
+ /usr/include/c++/13.1.1/bits/ostream.tcc /usr/include/c++/13.1.1/istream \
+ /usr/include/c++/13.1.1/bits/istream.tcc \
+ /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/build-PathingApp-Desktop-Debug/PathingApp_v2_autogen/EWIEGA46WW/../../../PathingApp/destination_functions/Coordinates_Calculations.hpp \
+ /usr/include/c++/13.1.1/set /usr/include/c++/13.1.1/bits/stl_set.h \
+ /usr/include/c++/13.1.1/bits/stl_multiset.h \
+ /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/build-PathingApp-Desktop-Debug/PathingApp_v2_autogen/EWIEGA46WW/../../../PathingApp/Drawing_Map/Map_Draw.hpp \
  /usr/include/qt6/QtCore/qtmochelpers.h \
  /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/build-PathingApp-Desktop-Debug/PathingApp_v2_autogen/EWIEGA46WW/moc_widget.cpp \
  /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/build-PathingApp-Desktop-Debug/PathingApp_v2_autogen/EWIEGA46WW/../../../PathingApp/widget.h \
@@ -382,17 +401,6 @@ CMakeFiles/PathingApp_v2.dir/PathingApp_v2_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtWidgets/QPushButton \
  /usr/include/qt6/QtWidgets/qpushbutton.h \
  /usr/include/qt6/QtWidgets/qabstractbutton.h \
- /usr/include/c++/13.1.1/iostream /usr/include/c++/13.1.1/ostream \
- /usr/include/c++/13.1.1/ios /usr/include/c++/13.1.1/bits/basic_ios.h \
- /usr/include/c++/13.1.1/bits/locale_facets.h \
- /usr/include/c++/13.1.1/cwctype /usr/include/wctype.h \
- /usr/include/bits/wctype-wchar.h \
- /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
- /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
- /usr/include/c++/13.1.1/bits/locale_facets.tcc \
- /usr/include/c++/13.1.1/bits/basic_ios.tcc \
- /usr/include/c++/13.1.1/bits/ostream.tcc /usr/include/c++/13.1.1/istream \
- /usr/include/c++/13.1.1/bits/istream.tcc \
  /usr/include/qt6/QtWidgets/QComboBox \
  /usr/include/qt6/QtWidgets/qcombobox.h \
  /usr/include/qt6/QtWidgets/qabstractitemdelegate.h \

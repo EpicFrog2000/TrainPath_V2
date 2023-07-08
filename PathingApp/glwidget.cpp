@@ -4,18 +4,12 @@
 #include <QCoreApplication>
 #include <math.h>
 
-#include "Contact_With_DB/contact_with_db.hpp"
-#include "destination_functions/Coordinates_Calculations.hpp"
-#include "Drawing_Map/Map_Draw.hpp"
-
 bool GLWidget::m_transparent = false;
 
 GLWidget::GLWidget(QString first, QString second, int odchylenie, QWidget *parent)
     : QOpenGLWidget(parent), first(first), second(second), odchylenie(odchylenie)
 {
     m_core = QSurfaceFormat::defaultFormat().profile() == QSurfaceFormat::CoreProfile;
-    // --transparent causes the clear color to be transparent. Therefore, on systems that
-    // support it, the widget will become transparent apart from the logo.
     if (m_transparent) {
         QSurfaceFormat fmt = format();
         fmt.setAlphaBufferSize(8);
@@ -43,18 +37,18 @@ void GLWidget::cleanup()
     QObject::disconnect(context(), &QOpenGLContext::aboutToBeDestroyed, this, &GLWidget::cleanup);
 }
 
-
 const char *vertexShaderSourceCore =
     "#version 330 core\n"
+    "// Input vertex data, different for all executions of this shader.\n"
     "layout(location = 0) in vec3 vertexPosition_modelspace;\n"
     "layout(location = 1) in vec3 vertexColor;\n"
     "out vec3 fragmentColor;\n"
-    "uniform mat4 projMatrix;\n"
-    "uniform mat4 mvMatrix;\n"
-    "uniform mat3 normalMatrix;\n"
-    "uniform vec3 lightPos;\n"
     "void main() {\n"
-    "    gl_Position = projMatrix * mvMatrix * vec4(vertexPosition_modelspace - 0.5, 1.0);\n"
+    "    // Invert the Y coordinate\n"
+    "    gl_Position.xyz = vertexPosition_modelspace;\n"
+    "    gl_Position.w = 0.5;\n"
+    "    gl_Position.x -= 0.5;\n"
+    "    gl_Position.y += 0.5;\n"
     "    fragmentColor = vertexColor;\n"
     "}\n";
 
@@ -86,14 +80,7 @@ void GLWidget::initializeGL()
 
     m_vao.create();
     QOpenGLVertexArrayObject::Binder vaoBinder(&m_vao);
-    std::vector<std::pair<std::string, std::pair<int, int>>> allStations = GetAllStations();
 
-    std::vector<std::pair<int, int>> firstStation = GetOneStationCoords(first.toStdString(), allStations);
-    std::vector<std::pair<int, int>> secondStation = GetOneStationCoords(second.toStdString(), allStations);
-    std::set<std::pair<int, int>> sortedStations = SortStationsByDistance(GetStationsFromArea(allStations, getPointsBetweenTwoStations(firstStation, secondStation), odchylenie), firstStation, secondStation);
-    std::vector<std::pair<int, int>> PathPoints = GetPathBetweenMultipleStations(sortedStations);
-
-    // Setup our vertex buffer object.
     stacjeVbo.create();
     pathVbo.create();
     stacjeKolorVbo.create();
@@ -112,13 +99,12 @@ void GLWidget::initializeGL()
         y = static_cast<float>(station.second.second) / 100;
         vertexes += 6;
         GLfloat newData[] = {
-            x - 0.004f,	y - 0.004f,	0.0f,
-            x + 0.004f,	y - 0.004f,	0.0f,
-            x - 0.004f,	y + 0.004f,	0.0f,
-
-            x + 0.004f,	y - 0.004f,	0.0f,
-            x + 0.004f,	y + 0.004f,	0.0f,
-            x - 0.004f,	y + 0.004f,	0.0f,
+            x - 0.004f, -y - 0.004f, 0.0f,
+            x + 0.004f, -y - 0.004f, 0.0f,
+            x - 0.004f, -y + 0.004f, 0.0f,
+            x + 0.004f, -y - 0.004f, 0.0f,
+            x + 0.004f, -y + 0.004f, 0.0f,
+            x - 0.004f, -y + 0.004f, 0.0f,
         };
         additionalData.insert(additionalData.end(), newData, newData + sizeof(newData) / sizeof(newData[0]));
 
@@ -140,7 +126,10 @@ void GLWidget::initializeGL()
     stacjeVbo.bind();
     stacjeVbo.allocate(additionalData.data(), additionalData.size() * sizeof(GLfloat));
     setupVertexAttribs(stacjeVbo);
-    //----------------------------------------------------------------------------------------------------------------------------------
+
+    additionalData.clear();
+    additionalColorData.clear();
+
     for (const auto &path : PathPoints)
     {
         pathVbo.bind();
@@ -148,13 +137,12 @@ void GLWidget::initializeGL()
         y = static_cast<float>(path.second) / 100;
         vertexes += 6;
         GLfloat newData[] = {
-            x - 0.004f, y - 0.004f, 0.0f,
-            x + 0.004f, y - 0.004f, 0.0f,
-            x - 0.004f, y + 0.004f, 0.0f,
-
-            x + 0.004f,	y - 0.004f,	0.0f,
-            x + 0.004f,	y + 0.004f,	0.0f,
-            x - 0.004f,	y + 0.004f,	0.0f,
+            x - 0.004f, -y - 0.004f, 0.0f,
+            x + 0.004f, -y - 0.004f, 0.0f,
+            x - 0.004f, -y + 0.004f, 0.0f,
+            x + 0.004f, -y - 0.004f, 0.0f,
+            x + 0.004f, -y + 0.004f, 0.0f,
+            x - 0.004f, -y + 0.004f, 0.0f,
         };
         additionalData.insert(additionalData.end(), newData, newData + sizeof(newData) / sizeof(newData[0]));
 
@@ -192,24 +180,17 @@ void GLWidget::setupVertexAttribs(QOpenGLBuffer& buffer)
 }
 void GLWidget::paintGL()
 {
-    // ...
 
-    // Define and set the projection matrix
     QMatrix4x4 projectionMatrix;
     projectionMatrix.perspective(45.0f, width() / height(), 0.1f, 100.0f);
 
-    // Define and set the model-view matrix
     QMatrix4x4 modelViewMatrix;
     modelViewMatrix.setToIdentity();
     modelViewMatrix.translate(0.0f, 0.0f, -1.0f);
 
-    // Define and set the normal matrix
     QMatrix3x3 normalMatrix = modelViewMatrix.normalMatrix();
 
-    // Define and set the light position
     QVector3D lightPosition(0.0f, 0.0f, 1.0f);
-
-    // ...
 
     m_program->setUniformValue("projMatrix", projectionMatrix);
     m_program->setUniformValue("mvMatrix", modelViewMatrix);
@@ -254,4 +235,37 @@ void GLWidget::paintGL()
     glDisableVertexAttribArray(1);
 
     m_program->release();
+}
+
+void GLWidget::mousePressEvent(QMouseEvent* event)
+{
+    if (event->button() == Qt::LeftButton)
+    {
+        if (clicked)
+        {
+            clicked = false;
+            double xpos = event->position().x()  / 1000.0;
+            double ypos = event->position().y()  / 1000.0;
+            for (const auto &station : allStations)
+            {
+                double stationX = static_cast<double>(station.second.first) / 100.0;
+                double stationY = static_cast<double>(station.second.second) / 100.0;
+                if (xpos >= stationX - 0.008 && xpos <= stationX + 0.008 &&
+                    ypos >= stationY - 0.008 && ypos <= stationY + 0.008)
+                {
+                    qDebug() << "station name:" << station.first << ", x, y:" << stationX << ", " << stationY;
+                    //change later to display info in applications terminal area
+                    break;
+                }
+            }
+        }
+    }
+}
+
+void GLWidget::mouseReleaseEvent(QMouseEvent *event)
+{
+    if (event->button() == Qt::LeftButton)
+    {
+        clicked = true;
+    }
 }

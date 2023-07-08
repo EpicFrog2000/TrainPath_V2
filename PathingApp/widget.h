@@ -15,7 +15,6 @@
 #include <QComboBox>
 #include <QSpinBox>
 
-
 class Widget : public QWidget
 {
     Q_OBJECT

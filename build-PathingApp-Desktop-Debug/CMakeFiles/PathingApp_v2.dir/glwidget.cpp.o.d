@@ -339,6 +339,25 @@ CMakeFiles/PathingApp_v2.dir/glwidget.cpp.o: \
  /usr/include/qt6/QtGui/qvector3d.h /usr/include/qt6/QtGui/qvectornd.h \
  /usr/include/qt6/QtGui/qvector4d.h /usr/include/qt6/QtGui/qquaternion.h \
  /usr/include/qt6/QtGui/qgenericmatrix.h \
+ /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/Contact_With_DB/contact_with_db.hpp \
+ /usr/include/mysql/mysql.h /usr/include/mysql/mariadb_com.h \
+ /usr/include/mysql/mariadb_version.h /usr/include/mysql/ma_list.h \
+ /usr/include/mysql/mariadb_ctype.h /usr/include/mysql/mariadb_stmt.h \
+ /usr/include/c++/13.1.1/iostream /usr/include/c++/13.1.1/ostream \
+ /usr/include/c++/13.1.1/ios /usr/include/c++/13.1.1/bits/basic_ios.h \
+ /usr/include/c++/13.1.1/bits/locale_facets.h \
+ /usr/include/c++/13.1.1/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/13.1.1/bits/locale_facets.tcc \
+ /usr/include/c++/13.1.1/bits/basic_ios.tcc \
+ /usr/include/c++/13.1.1/bits/ostream.tcc /usr/include/c++/13.1.1/istream \
+ /usr/include/c++/13.1.1/bits/istream.tcc \
+ /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/destination_functions/Coordinates_Calculations.hpp \
+ /usr/include/c++/13.1.1/set /usr/include/c++/13.1.1/bits/stl_set.h \
+ /usr/include/c++/13.1.1/bits/stl_multiset.h \
+ /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/Drawing_Map/Map_Draw.hpp \
  /usr/include/qt6/QtGui/QMouseEvent /usr/include/qt6/QtGui/qevent.h \
  /usr/include/qt6/QtCore/qcoreevent.h /usr/include/qt6/QtCore/qiodevice.h \
  /usr/include/qt6/QtCore/qpointer.h /usr/include/qt6/QtCore/qurl.h \
@@ -358,23 +377,4 @@ CMakeFiles/PathingApp_v2.dir/glwidget.cpp.o: \
  /usr/include/qt6/QtCore/qeventloop.h \
  /usr/include/qt6/QtCore/qcoreapplication_platform.h \
  /usr/include/qt6/QtCore/qcoreapplication.h \
- /usr/include/c++/13.1.1/math.h \
- /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/Contact_With_DB/contact_with_db.hpp \
- /usr/include/mysql/mysql.h /usr/include/mysql/mariadb_com.h \
- /usr/include/mysql/mariadb_version.h /usr/include/mysql/ma_list.h \
- /usr/include/mysql/mariadb_ctype.h /usr/include/mysql/mariadb_stmt.h \
- /usr/include/c++/13.1.1/iostream /usr/include/c++/13.1.1/ostream \
- /usr/include/c++/13.1.1/ios /usr/include/c++/13.1.1/bits/basic_ios.h \
- /usr/include/c++/13.1.1/bits/locale_facets.h \
- /usr/include/c++/13.1.1/cwctype /usr/include/wctype.h \
- /usr/include/bits/wctype-wchar.h \
- /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
- /usr/include/c++/13.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
- /usr/include/c++/13.1.1/bits/locale_facets.tcc \
- /usr/include/c++/13.1.1/bits/basic_ios.tcc \
- /usr/include/c++/13.1.1/bits/ostream.tcc /usr/include/c++/13.1.1/istream \
- /usr/include/c++/13.1.1/bits/istream.tcc \
- /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/destination_functions/Coordinates_Calculations.hpp \
- /usr/include/c++/13.1.1/set /usr/include/c++/13.1.1/bits/stl_set.h \
- /usr/include/c++/13.1.1/bits/stl_multiset.h \
- /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/Drawing_Map/Map_Draw.hpp
+ /usr/include/c++/13.1.1/math.h
