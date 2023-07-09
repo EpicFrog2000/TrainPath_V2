@@ -331,31 +331,11 @@ CMakeFiles/PathingApp_v2.dir/widget.cpp.o: \
  /usr/include/qt6/QtWidgets/qgroupbox.h \
  /usr/include/qt6/QtWidgets/QGridLayout \
  /usr/include/qt6/QtWidgets/qgridlayout.h \
- /usr/include/qt6/QtWidgets/QPlainTextEdit \
- /usr/include/qt6/QtWidgets/qplaintextedit.h \
- /usr/include/qt6/QtWidgets/qtextedit.h \
- /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
- /usr/include/qt6/QtGui/qtextoption.h \
- /usr/include/qt6/QtGui/qtextcursor.h \
- /usr/include/qt6/QtGui/qtextformat.h /usr/include/qt6/QtGui/qpen.h \
- /usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
- /usr/include/qt6/QtGui/qtextlayout.h /usr/include/qt6/QtGui/qevent.h \
- /usr/include/qt6/QtCore/qcoreevent.h /usr/include/qt6/QtCore/qpointer.h \
- /usr/include/qt6/QtGui/qeventpoint.h /usr/include/qt6/QtGui/qvector2d.h \
- /usr/include/qt6/QtGui/qvectornd.h \
- /usr/include/qt6/QtGui/qpointingdevice.h \
- /usr/include/qt6/QtGui/qinputdevice.h /usr/include/qt6/QtGui/qscreen.h \
- /usr/include/qt6/QtCore/QList /usr/include/qt6/QtCore/qlist.h \
- /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
- /usr/include/qt6/QtCore/QRect /usr/include/qt6/QtCore/qrect.h \
- /usr/include/qt6/QtCore/QSize /usr/include/qt6/QtCore/qsize.h \
- /usr/include/qt6/QtCore/QSizeF /usr/include/qt6/QtGui/QTransform \
- /usr/include/qt6/QtGui/qtransform.h \
- /usr/include/qt6/QtCore/qnativeinterface.h \
- /usr/include/qt6/QtGui/qglyphrun.h /usr/include/qt6/QtGui/qrawfont.h \
- /usr/include/qt6/QtGui/qfontdatabase.h \
  /usr/include/qt6/QtWidgets/QLineEdit \
  /usr/include/qt6/QtWidgets/qlineedit.h \
+ /usr/include/qt6/QtGui/qtextcursor.h \
+ /usr/include/qt6/QtGui/qtextformat.h /usr/include/qt6/QtGui/qpen.h \
+ /usr/include/qt6/QtGui/qtextoption.h \
  /usr/include/qt6/QtWidgets/QPushButton \
  /usr/include/qt6/QtWidgets/qpushbutton.h \
  /usr/include/qt6/QtWidgets/qabstractbutton.h \
@@ -397,17 +377,35 @@ CMakeFiles/PathingApp_v2.dir/widget.cpp.o: \
  /usr/include/inttypes.h /usr/include/qt6/QtGui/QOpenGLFunctions \
  /usr/include/qt6/QtGui/qopenglfunctions.h \
  /usr/include/qt6/QtGui/qopenglcontext.h \
+ /usr/include/qt6/QtCore/qnativeinterface.h \
  /usr/include/qt6/QtGui/qopenglcontext_platform.h \
  /usr/include/qt6/QtOpenGL/QOpenGLVertexArrayObject \
  /usr/include/qt6/QtOpenGL/qopenglvertexarrayobject.h \
  /usr/include/qt6/QtOpenGL/qtopenglglobal.h \
  /usr/include/qt6/QtOpenGL/qtopenglexports.h \
+ /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtOpenGL/QOpenGLBuffer \
  /usr/include/qt6/QtOpenGL/qopenglbuffer.h \
  /usr/include/qt6/QtGui/QMatrix4x4 /usr/include/qt6/QtGui/qmatrix4x4.h \
- /usr/include/qt6/QtGui/qvector3d.h /usr/include/qt6/QtGui/qvector4d.h \
- /usr/include/qt6/QtGui/qquaternion.h \
+ /usr/include/qt6/QtGui/qvector3d.h /usr/include/qt6/QtGui/qvectornd.h \
+ /usr/include/qt6/QtGui/qvector4d.h /usr/include/qt6/QtGui/qquaternion.h \
  /usr/include/qt6/QtGui/qgenericmatrix.h \
+ /usr/include/qt6/QtWidgets/QPlainTextEdit \
+ /usr/include/qt6/QtWidgets/qplaintextedit.h \
+ /usr/include/qt6/QtWidgets/qtextedit.h \
+ /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
+ /usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
+ /usr/include/qt6/QtGui/qtextlayout.h /usr/include/qt6/QtGui/qevent.h \
+ /usr/include/qt6/QtCore/qcoreevent.h /usr/include/qt6/QtCore/qpointer.h \
+ /usr/include/qt6/QtGui/qeventpoint.h /usr/include/qt6/QtGui/qvector2d.h \
+ /usr/include/qt6/QtGui/qpointingdevice.h \
+ /usr/include/qt6/QtGui/qinputdevice.h /usr/include/qt6/QtGui/qscreen.h \
+ /usr/include/qt6/QtCore/QList /usr/include/qt6/QtCore/qlist.h \
+ /usr/include/qt6/QtCore/QRect /usr/include/qt6/QtCore/qrect.h \
+ /usr/include/qt6/QtCore/QSize /usr/include/qt6/QtCore/qsize.h \
+ /usr/include/qt6/QtCore/QSizeF /usr/include/qt6/QtGui/QTransform \
+ /usr/include/qt6/QtGui/qtransform.h /usr/include/qt6/QtGui/qglyphrun.h \
+ /usr/include/qt6/QtGui/qrawfont.h /usr/include/qt6/QtGui/qfontdatabase.h \
  /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/Contact_With_DB/contact_with_db.hpp \
  /usr/include/mysql/mysql.h /usr/include/mysql/mariadb_com.h \
  /usr/include/mysql/mariadb_version.h /usr/include/mysql/ma_list.h \

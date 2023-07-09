@@ -447,6 +447,41 @@ CMakeFiles/PathingApp_v2.dir/PathingApp_v2_autogen/mocs_compilation.cpp.o: Pathi
   /usr/include/qt6/QtGui/qvector4d.h \
   /usr/include/qt6/QtGui/qquaternion.h \
   /usr/include/qt6/QtGui/qgenericmatrix.h \
+  /usr/include/qt6/QtWidgets/QPlainTextEdit \
+  /usr/include/qt6/QtWidgets/qplaintextedit.h \
+  /usr/include/qt6/QtWidgets/qtextedit.h \
+  /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
+  /usr/include/qt6/QtWidgets/qframe.h \
+  /usr/include/qt6/QtWidgets/qwidget.h \
+  /usr/include/qt6/QtGui/qtextdocument.h \
+  /usr/include/qt6/QtCore/qurl.h \
+  /usr/include/qt6/QtGui/qtextoption.h \
+  /usr/include/qt6/QtGui/qtextcursor.h \
+  /usr/include/qt6/QtGui/qtextformat.h \
+  /usr/include/qt6/QtGui/qpen.h \
+  /usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
+  /usr/include/qt6/QtGui/qtextlayout.h \
+  /usr/include/qt6/QtGui/qevent.h \
+  /usr/include/qt6/QtCore/qcoreevent.h \
+  /usr/include/qt6/QtCore/qiodevice.h \
+  /usr/include/qt6/QtCore/qpointer.h \
+  /usr/include/qt6/QtGui/qeventpoint.h \
+  /usr/include/qt6/QtGui/qvector2d.h \
+  /usr/include/qt6/QtGui/qpointingdevice.h \
+  /usr/include/qt6/QtGui/qinputdevice.h \
+  /usr/include/qt6/QtGui/qscreen.h \
+  /usr/include/qt6/QtCore/QList \
+  /usr/include/qt6/QtCore/qlist.h \
+  /usr/include/qt6/QtCore/QRect \
+  /usr/include/qt6/QtCore/qrect.h \
+  /usr/include/qt6/QtCore/QSize \
+  /usr/include/qt6/QtCore/qsize.h \
+  /usr/include/qt6/QtCore/QSizeF \
+  /usr/include/qt6/QtGui/QTransform \
+  /usr/include/qt6/QtGui/qtransform.h \
+  /usr/include/qt6/QtGui/qglyphrun.h \
+  /usr/include/qt6/QtGui/qrawfont.h \
+  /usr/include/qt6/QtGui/qfontdatabase.h \
   /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/Contact_With_DB/contact_with_db.hpp \
   /usr/include/mysql/mysql.h \
   /usr/include/mysql/mariadb_com.h \
@@ -486,46 +521,11 @@ CMakeFiles/PathingApp_v2.dir/PathingApp_v2_autogen/mocs_compilation.cpp.o: Pathi
   /usr/include/qt6/QtWidgets/QVBoxLayout \
   /usr/include/qt6/QtWidgets/QLabel \
   /usr/include/qt6/QtWidgets/qlabel.h \
-  /usr/include/qt6/QtWidgets/qframe.h \
-  /usr/include/qt6/QtWidgets/qwidget.h \
   /usr/include/qt6/QtGui/qpicture.h \
-  /usr/include/qt6/QtCore/qiodevice.h \
-  /usr/include/qt6/QtGui/qtextdocument.h \
-  /usr/include/qt6/QtCore/qurl.h \
   /usr/include/qt6/QtWidgets/QGroupBox \
   /usr/include/qt6/QtWidgets/qgroupbox.h \
   /usr/include/qt6/QtWidgets/QGridLayout \
   /usr/include/qt6/QtWidgets/qgridlayout.h \
-  /usr/include/qt6/QtWidgets/QPlainTextEdit \
-  /usr/include/qt6/QtWidgets/qplaintextedit.h \
-  /usr/include/qt6/QtWidgets/qtextedit.h \
-  /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
-  /usr/include/qt6/QtGui/qtextoption.h \
-  /usr/include/qt6/QtGui/qtextcursor.h \
-  /usr/include/qt6/QtGui/qtextformat.h \
-  /usr/include/qt6/QtGui/qpen.h \
-  /usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
-  /usr/include/qt6/QtGui/qtextlayout.h \
-  /usr/include/qt6/QtGui/qevent.h \
-  /usr/include/qt6/QtCore/qcoreevent.h \
-  /usr/include/qt6/QtCore/qpointer.h \
-  /usr/include/qt6/QtGui/qeventpoint.h \
-  /usr/include/qt6/QtGui/qvector2d.h \
-  /usr/include/qt6/QtGui/qpointingdevice.h \
-  /usr/include/qt6/QtGui/qinputdevice.h \
-  /usr/include/qt6/QtGui/qscreen.h \
-  /usr/include/qt6/QtCore/QList \
-  /usr/include/qt6/QtCore/qlist.h \
-  /usr/include/qt6/QtCore/QRect \
-  /usr/include/qt6/QtCore/qrect.h \
-  /usr/include/qt6/QtCore/QSize \
-  /usr/include/qt6/QtCore/qsize.h \
-  /usr/include/qt6/QtCore/QSizeF \
-  /usr/include/qt6/QtGui/QTransform \
-  /usr/include/qt6/QtGui/qtransform.h \
-  /usr/include/qt6/QtGui/qglyphrun.h \
-  /usr/include/qt6/QtGui/qrawfont.h \
-  /usr/include/qt6/QtGui/qfontdatabase.h \
   /usr/include/qt6/QtWidgets/QLineEdit \
   /usr/include/qt6/QtWidgets/qlineedit.h \
   /usr/include/qt6/QtWidgets/QPushButton \
@@ -994,6 +994,41 @@ CMakeFiles/PathingApp_v2.dir/glwidget.cpp.o: /Dysk_przenośny/Programowanie/C++/
   /usr/include/qt6/QtGui/qvector4d.h \
   /usr/include/qt6/QtGui/qquaternion.h \
   /usr/include/qt6/QtGui/qgenericmatrix.h \
+  /usr/include/qt6/QtWidgets/QPlainTextEdit \
+  /usr/include/qt6/QtWidgets/qplaintextedit.h \
+  /usr/include/qt6/QtWidgets/qtextedit.h \
+  /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
+  /usr/include/qt6/QtWidgets/qframe.h \
+  /usr/include/qt6/QtWidgets/qwidget.h \
+  /usr/include/qt6/QtGui/qtextdocument.h \
+  /usr/include/qt6/QtCore/qurl.h \
+  /usr/include/qt6/QtGui/qtextoption.h \
+  /usr/include/qt6/QtGui/qtextcursor.h \
+  /usr/include/qt6/QtGui/qtextformat.h \
+  /usr/include/qt6/QtGui/qpen.h \
+  /usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
+  /usr/include/qt6/QtGui/qtextlayout.h \
+  /usr/include/qt6/QtGui/qevent.h \
+  /usr/include/qt6/QtCore/qcoreevent.h \
+  /usr/include/qt6/QtCore/qiodevice.h \
+  /usr/include/qt6/QtCore/qpointer.h \
+  /usr/include/qt6/QtGui/qeventpoint.h \
+  /usr/include/qt6/QtGui/qvector2d.h \
+  /usr/include/qt6/QtGui/qpointingdevice.h \
+  /usr/include/qt6/QtGui/qinputdevice.h \
+  /usr/include/qt6/QtGui/qscreen.h \
+  /usr/include/qt6/QtCore/QList \
+  /usr/include/qt6/QtCore/qlist.h \
+  /usr/include/qt6/QtCore/QRect \
+  /usr/include/qt6/QtCore/qrect.h \
+  /usr/include/qt6/QtCore/QSize \
+  /usr/include/qt6/QtCore/qsize.h \
+  /usr/include/qt6/QtCore/QSizeF \
+  /usr/include/qt6/QtGui/QTransform \
+  /usr/include/qt6/QtGui/qtransform.h \
+  /usr/include/qt6/QtGui/qglyphrun.h \
+  /usr/include/qt6/QtGui/qrawfont.h \
+  /usr/include/qt6/QtGui/qfontdatabase.h \
   /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/Contact_With_DB/contact_with_db.hpp \
   /usr/include/mysql/mysql.h \
   /usr/include/mysql/mariadb_com.h \
@@ -1023,24 +1058,6 @@ CMakeFiles/PathingApp_v2.dir/glwidget.cpp.o: /Dysk_przenośny/Programowanie/C++/
   /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/Drawing_Map/Map_Draw.hpp \
   /usr/include/qt6/QtGui/QMouseEvent \
   /usr/include/qt6/QtGui/qevent.h \
-  /usr/include/qt6/QtCore/qcoreevent.h \
-  /usr/include/qt6/QtCore/qiodevice.h \
-  /usr/include/qt6/QtCore/qpointer.h \
-  /usr/include/qt6/QtCore/qurl.h \
-  /usr/include/qt6/QtGui/qeventpoint.h \
-  /usr/include/qt6/QtGui/qvector2d.h \
-  /usr/include/qt6/QtGui/qpointingdevice.h \
-  /usr/include/qt6/QtGui/qinputdevice.h \
-  /usr/include/qt6/QtGui/qscreen.h \
-  /usr/include/qt6/QtCore/QList \
-  /usr/include/qt6/QtCore/qlist.h \
-  /usr/include/qt6/QtCore/QRect \
-  /usr/include/qt6/QtCore/qrect.h \
-  /usr/include/qt6/QtCore/QSize \
-  /usr/include/qt6/QtCore/qsize.h \
-  /usr/include/qt6/QtCore/QSizeF \
-  /usr/include/qt6/QtGui/QTransform \
-  /usr/include/qt6/QtGui/qtransform.h \
   /usr/include/qt6/QtOpenGL/QOpenGLShaderProgram \
   /usr/include/qt6/QtOpenGL/qopenglshaderprogram.h \
   /usr/include/qt6/QtGui/qmatrix4x4.h \
@@ -1484,42 +1501,12 @@ CMakeFiles/PathingApp_v2.dir/main.cpp.o: /Dysk_przenośny/Programowanie/C++/Open
   /usr/include/qt6/QtWidgets/qgroupbox.h \
   /usr/include/qt6/QtWidgets/QGridLayout \
   /usr/include/qt6/QtWidgets/qgridlayout.h \
-  /usr/include/qt6/QtWidgets/QPlainTextEdit \
-  /usr/include/qt6/QtWidgets/qplaintextedit.h \
-  /usr/include/qt6/QtWidgets/qtextedit.h \
-  /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
-  /usr/include/qt6/QtGui/qtextoption.h \
+  /usr/include/qt6/QtWidgets/QLineEdit \
+  /usr/include/qt6/QtWidgets/qlineedit.h \
   /usr/include/qt6/QtGui/qtextcursor.h \
   /usr/include/qt6/QtGui/qtextformat.h \
   /usr/include/qt6/QtGui/qpen.h \
-  /usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
-  /usr/include/qt6/QtGui/qtextlayout.h \
-  /usr/include/qt6/QtGui/qevent.h \
-  /usr/include/qt6/QtCore/qcoreevent.h \
-  /usr/include/qt6/QtCore/qpointer.h \
-  /usr/include/qt6/QtGui/qeventpoint.h \
-  /usr/include/qt6/QtGui/qvector2d.h \
-  /usr/include/qt6/QtGui/qvectornd.h \
-  /usr/include/qt6/QtGui/qpointingdevice.h \
-  /usr/include/qt6/QtGui/qinputdevice.h \
-  /usr/include/qt6/QtGui/qscreen.h \
-  /usr/include/qt6/QtCore/QList \
-  /usr/include/qt6/QtCore/qlist.h \
-  /usr/include/qt6/QtCore/QObject \
-  /usr/include/qt6/QtCore/qobject.h \
-  /usr/include/qt6/QtCore/QRect \
-  /usr/include/qt6/QtCore/qrect.h \
-  /usr/include/qt6/QtCore/QSize \
-  /usr/include/qt6/QtCore/qsize.h \
-  /usr/include/qt6/QtCore/QSizeF \
-  /usr/include/qt6/QtGui/QTransform \
-  /usr/include/qt6/QtGui/qtransform.h \
-  /usr/include/qt6/QtCore/qnativeinterface.h \
-  /usr/include/qt6/QtGui/qglyphrun.h \
-  /usr/include/qt6/QtGui/qrawfont.h \
-  /usr/include/qt6/QtGui/qfontdatabase.h \
-  /usr/include/qt6/QtWidgets/QLineEdit \
-  /usr/include/qt6/QtWidgets/qlineedit.h \
+  /usr/include/qt6/QtGui/qtextoption.h \
   /usr/include/qt6/QtWidgets/QPushButton \
   /usr/include/qt6/QtWidgets/qpushbutton.h \
   /usr/include/qt6/QtWidgets/qabstractbutton.h \
@@ -1558,7 +1545,9 @@ CMakeFiles/PathingApp_v2.dir/main.cpp.o: /Dysk_przenośny/Programowanie/C++/Open
   /usr/include/qt6/QtWidgets/QApplication \
   /usr/include/qt6/QtWidgets/qapplication.h \
   /usr/include/qt6/QtCore/qcoreapplication.h \
+  /usr/include/qt6/QtCore/qcoreevent.h \
   /usr/include/qt6/QtCore/qeventloop.h \
+  /usr/include/qt6/QtCore/qnativeinterface.h \
   /usr/include/qt6/QtCore/qcoreapplication_platform.h \
   /usr/include/qt6/QtGui/qguiapplication.h \
   /usr/include/qt6/QtGui/qinputmethod.h \
@@ -1997,42 +1986,12 @@ CMakeFiles/PathingApp_v2.dir/widget.cpp.o: /Dysk_przenośny/Programowanie/C++/Op
   /usr/include/qt6/QtWidgets/qgroupbox.h \
   /usr/include/qt6/QtWidgets/QGridLayout \
   /usr/include/qt6/QtWidgets/qgridlayout.h \
-  /usr/include/qt6/QtWidgets/QPlainTextEdit \
-  /usr/include/qt6/QtWidgets/qplaintextedit.h \
-  /usr/include/qt6/QtWidgets/qtextedit.h \
-  /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
-  /usr/include/qt6/QtGui/qtextoption.h \
+  /usr/include/qt6/QtWidgets/QLineEdit \
+  /usr/include/qt6/QtWidgets/qlineedit.h \
   /usr/include/qt6/QtGui/qtextcursor.h \
   /usr/include/qt6/QtGui/qtextformat.h \
   /usr/include/qt6/QtGui/qpen.h \
-  /usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
-  /usr/include/qt6/QtGui/qtextlayout.h \
-  /usr/include/qt6/QtGui/qevent.h \
-  /usr/include/qt6/QtCore/qcoreevent.h \
-  /usr/include/qt6/QtCore/qpointer.h \
-  /usr/include/qt6/QtGui/qeventpoint.h \
-  /usr/include/qt6/QtGui/qvector2d.h \
-  /usr/include/qt6/QtGui/qvectornd.h \
-  /usr/include/qt6/QtGui/qpointingdevice.h \
-  /usr/include/qt6/QtGui/qinputdevice.h \
-  /usr/include/qt6/QtGui/qscreen.h \
-  /usr/include/qt6/QtCore/QList \
-  /usr/include/qt6/QtCore/qlist.h \
-  /usr/include/qt6/QtCore/QObject \
-  /usr/include/qt6/QtCore/qobject.h \
-  /usr/include/qt6/QtCore/QRect \
-  /usr/include/qt6/QtCore/qrect.h \
-  /usr/include/qt6/QtCore/QSize \
-  /usr/include/qt6/QtCore/qsize.h \
-  /usr/include/qt6/QtCore/QSizeF \
-  /usr/include/qt6/QtGui/QTransform \
-  /usr/include/qt6/QtGui/qtransform.h \
-  /usr/include/qt6/QtCore/qnativeinterface.h \
-  /usr/include/qt6/QtGui/qglyphrun.h \
-  /usr/include/qt6/QtGui/qrawfont.h \
-  /usr/include/qt6/QtGui/qfontdatabase.h \
-  /usr/include/qt6/QtWidgets/QLineEdit \
-  /usr/include/qt6/QtWidgets/qlineedit.h \
+  /usr/include/qt6/QtGui/qtextoption.h \
   /usr/include/qt6/QtWidgets/QPushButton \
   /usr/include/qt6/QtWidgets/qpushbutton.h \
   /usr/include/qt6/QtWidgets/qabstractbutton.h \
@@ -2083,19 +2042,49 @@ CMakeFiles/PathingApp_v2.dir/widget.cpp.o: /Dysk_przenośny/Programowanie/C++/Op
   /usr/include/qt6/QtGui/QOpenGLFunctions \
   /usr/include/qt6/QtGui/qopenglfunctions.h \
   /usr/include/qt6/QtGui/qopenglcontext.h \
+  /usr/include/qt6/QtCore/qnativeinterface.h \
   /usr/include/qt6/QtGui/qopenglcontext_platform.h \
   /usr/include/qt6/QtOpenGL/QOpenGLVertexArrayObject \
   /usr/include/qt6/QtOpenGL/qopenglvertexarrayobject.h \
   /usr/include/qt6/QtOpenGL/qtopenglglobal.h \
   /usr/include/qt6/QtOpenGL/qtopenglexports.h \
+  /usr/include/qt6/QtCore/QObject \
+  /usr/include/qt6/QtCore/qobject.h \
   /usr/include/qt6/QtOpenGL/QOpenGLBuffer \
   /usr/include/qt6/QtOpenGL/qopenglbuffer.h \
   /usr/include/qt6/QtGui/QMatrix4x4 \
   /usr/include/qt6/QtGui/qmatrix4x4.h \
   /usr/include/qt6/QtGui/qvector3d.h \
+  /usr/include/qt6/QtGui/qvectornd.h \
   /usr/include/qt6/QtGui/qvector4d.h \
   /usr/include/qt6/QtGui/qquaternion.h \
   /usr/include/qt6/QtGui/qgenericmatrix.h \
+  /usr/include/qt6/QtWidgets/QPlainTextEdit \
+  /usr/include/qt6/QtWidgets/qplaintextedit.h \
+  /usr/include/qt6/QtWidgets/qtextedit.h \
+  /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
+  /usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
+  /usr/include/qt6/QtGui/qtextlayout.h \
+  /usr/include/qt6/QtGui/qevent.h \
+  /usr/include/qt6/QtCore/qcoreevent.h \
+  /usr/include/qt6/QtCore/qpointer.h \
+  /usr/include/qt6/QtGui/qeventpoint.h \
+  /usr/include/qt6/QtGui/qvector2d.h \
+  /usr/include/qt6/QtGui/qpointingdevice.h \
+  /usr/include/qt6/QtGui/qinputdevice.h \
+  /usr/include/qt6/QtGui/qscreen.h \
+  /usr/include/qt6/QtCore/QList \
+  /usr/include/qt6/QtCore/qlist.h \
+  /usr/include/qt6/QtCore/QRect \
+  /usr/include/qt6/QtCore/qrect.h \
+  /usr/include/qt6/QtCore/QSize \
+  /usr/include/qt6/QtCore/qsize.h \
+  /usr/include/qt6/QtCore/QSizeF \
+  /usr/include/qt6/QtGui/QTransform \
+  /usr/include/qt6/QtGui/qtransform.h \
+  /usr/include/qt6/QtGui/qglyphrun.h \
+  /usr/include/qt6/QtGui/qrawfont.h \
+  /usr/include/qt6/QtGui/qfontdatabase.h \
   /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/Contact_With_DB/contact_with_db.hpp \
   /usr/include/mysql/mysql.h \
   /usr/include/mysql/mariadb_com.h \
@@ -2592,11 +2581,11 @@ PathingApp_v2_autogen/EWIEGA46WW/moc_glwidget.cpp:
 
 /usr/include/asm/errno.h:
 
+/usr/include/qt6/QtGui/qscreen.h:
+
 /usr/include/qt6/QtWidgets/QGridLayout:
 
 /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/widget.h:
-
-/usr/include/qt6/QtGui/qscreen.h:
 
 /usr/include/c++/13.1.1/bits/utility.h:
 
@@ -3064,6 +3053,60 @@ PathingApp_v2_autogen/mocs_compilation.cpp:
 
 /usr/include/qt6/QtGui/qgenericmatrix.h:
 
+/usr/include/qt6/QtWidgets/QPlainTextEdit:
+
+/usr/include/qt6/QtWidgets/qtextedit.h:
+
+/usr/include/qt6/QtWidgets/qabstractscrollarea.h:
+
+/usr/include/qt6/QtCore/QList:
+
+/usr/include/qt6/QtCore/qbytearrayalgorithms.h:
+
+/usr/include/qt6/QtWidgets/qframe.h:
+
+/usr/include/qt6/QtCore/qurl.h:
+
+/usr/include/qt6/QtCore/qmath.h:
+
+/usr/include/qt6/QtGui/qtextformat.h:
+
+/usr/include/qt6/QtGui/qabstracttextdocumentlayout.h:
+
+/usr/include/qt6/QtWidgets/qtabwidget.h:
+
+/usr/include/bits/floatn-common.h:
+
+/usr/include/qt6/QtGui/qtextlayout.h:
+
+/usr/include/qt6/QtGui/qevent.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/qt6/QtCore/qpointer.h:
+
+/usr/include/c++/13.1.1/bits/stream_iterator.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/qt6/QtGui/qvector2d.h:
+
+/usr/include/qt6/QtGui/qpointingdevice.h:
+
+/usr/include/qt6/QtCore/QRect:
+
+/usr/include/bits/types/wint_t.h:
+
+/usr/include/qt6/QtWidgets/qabstractbutton.h:
+
+/usr/include/qt6/QtCore/QSize:
+
+/usr/include/qt6/QtCore/QSizeF:
+
+/usr/include/c++/13.1.1/bits/stl_algobase.h:
+
+/usr/include/qt6/QtGui/qfontdatabase.h:
+
 /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/Contact_With_DB/contact_with_db.hpp:
 
 /usr/include/mysql/mysql.h:
@@ -3131,60 +3174,6 @@ PathingApp_v2_autogen/EWIEGA46WW/moc_widget.cpp:
 /usr/include/bits/types/__FILE.h:
 
 /usr/include/qt6/QtWidgets/QLabel:
-
-/usr/include/qt6/QtCore/qbytearrayalgorithms.h:
-
-/usr/include/qt6/QtWidgets/qframe.h:
-
-/usr/include/qt6/QtCore/qurl.h:
-
-/usr/include/qt6/QtWidgets/QPlainTextEdit:
-
-/usr/include/qt6/QtWidgets/qtextedit.h:
-
-/usr/include/qt6/QtWidgets/qabstractscrollarea.h:
-
-/usr/include/qt6/QtCore/QList:
-
-/usr/include/qt6/QtCore/qmath.h:
-
-/usr/include/qt6/QtGui/qtextformat.h:
-
-/usr/include/qt6/QtGui/qabstracttextdocumentlayout.h:
-
-/usr/include/qt6/QtWidgets/qtabwidget.h:
-
-/usr/include/bits/floatn-common.h:
-
-/usr/include/qt6/QtGui/qtextlayout.h:
-
-/usr/include/qt6/QtGui/qevent.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/qt6/QtCore/qpointer.h:
-
-/usr/include/c++/13.1.1/bits/stream_iterator.h:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/qt6/QtGui/qvector2d.h:
-
-/usr/include/qt6/QtGui/qpointingdevice.h:
-
-/usr/include/qt6/QtCore/QRect:
-
-/usr/include/bits/types/wint_t.h:
-
-/usr/include/qt6/QtWidgets/qabstractbutton.h:
-
-/usr/include/qt6/QtCore/QSize:
-
-/usr/include/qt6/QtCore/QSizeF:
-
-/usr/include/c++/13.1.1/bits/stl_algobase.h:
-
-/usr/include/qt6/QtGui/qfontdatabase.h:
 
 /usr/include/c++/13.1.1/bits/invoke.h:
 

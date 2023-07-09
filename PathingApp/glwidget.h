@@ -5,6 +5,7 @@
 #include <QOpenGLBuffer>
 #include <QMatrix4x4>
 #include <vector>
+#include <QPlainTextEdit>
 
 #include "Contact_With_DB/contact_with_db.hpp"
 #include "destination_functions/Coordinates_Calculations.hpp"
@@ -12,12 +13,16 @@
 
 QT_FORWARD_DECLARE_CLASS(QOpenGLShaderProgram)
 
+
+
 class GLWidget : public QOpenGLWidget, protected QOpenGLFunctions
 {
     Q_OBJECT
 public:
     GLWidget(QString first, QString second, int odchylenie , QWidget *parent = nullptr);
     ~GLWidget();
+
+    static QPlainTextEdit *termianlArea();
 
 public slots:
     void cleanup();
@@ -57,5 +62,4 @@ private:
     std::vector<std::pair<int, int>> secondStation = GetOneStationCoords(second.toStdString(), allStations);
     std::set<std::pair<int, int>> sortedStations = SortStationsByDistance(GetStationsFromArea(allStations, getPointsBetweenTwoStations(firstStation, secondStation), odchylenie), firstStation, secondStation);
     std::vector<std::pair<int, int>> PathPoints = GetPathBetweenMultipleStations(sortedStations);
-
 };

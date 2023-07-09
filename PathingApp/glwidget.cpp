@@ -5,7 +5,7 @@
 #include <math.h>
 
 bool GLWidget::m_transparent = false;
-
+QPlainTextEdit *textArea = nullptr; // Definition of textArea
 GLWidget::GLWidget(QString first, QString second, int odchylenie, QWidget *parent)
     : QOpenGLWidget(parent), first(first), second(second), odchylenie(odchylenie)
 {
@@ -253,8 +253,15 @@ void GLWidget::mousePressEvent(QMouseEvent* event)
                 if (xpos >= stationX - 0.008 && xpos <= stationX + 0.008 &&
                     ypos >= stationY - 0.008 && ypos <= stationY + 0.008)
                 {
-                    qDebug() << "station name:" << station.first << ", x, y:" << stationX << ", " << stationY;
-                    //change later to display info in applications terminal area
+                    std::string stationInfo = "name: " +
+                                              station.first +
+                                              "\n" +
+                                              "x: " +
+                                              std::to_string(stationX) +
+                                              "\ny: " +
+                                              std::to_string(stationY);
+                    QString stationInfoQString = QString::fromStdString(stationInfo);
+                    textArea->setPlainText(stationInfoQString);
                     break;
                 }
             }
@@ -268,4 +275,12 @@ void GLWidget::mouseReleaseEvent(QMouseEvent *event)
     {
         clicked = true;
     }
+}
+
+QPlainTextEdit *GLWidget::termianlArea()
+{
+    textArea = new QPlainTextEdit();
+    textArea->setMinimumHeight(50);
+    textArea->setMinimumWidth(200);
+    return textArea;
 }

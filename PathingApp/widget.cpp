@@ -19,18 +19,14 @@ Widget::Widget(QWidget *parent)
 
     hbox->addLayout(leftPanel);
 
-    QPlainTextEdit *terminalArea = termianlArea();
-
     glWidget = new GLWidget("Warszawa","Warszawa", 0);
     glWidget->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
-    terminalArea->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
 
     glWidget->setFixedHeight(1000);
     glWidget->setFixedWidth(1000);
-    terminalArea->setMinimumHeight(0);
 
     hbox->addWidget(glWidget);
-    hbox->addWidget(terminalArea);
+    hbox->addWidget(GLWidget::termianlArea());
 
     setLayout(hbox);
 
@@ -98,14 +94,6 @@ QGroupBox *Widget::createInputGroup()
     groupBox->setFixedHeight(300);
     connect(button, &QPushButton::clicked, this, &Widget::buttonClicked);
     return groupBox;
-}
-
-QPlainTextEdit *Widget::termianlArea()
-{
-    textArea = new QPlainTextEdit();
-    textArea->setMinimumHeight(50);
-    textArea->setMinimumWidth(200);
-    return textArea;
 }
 
 void Widget::buttonClicked()

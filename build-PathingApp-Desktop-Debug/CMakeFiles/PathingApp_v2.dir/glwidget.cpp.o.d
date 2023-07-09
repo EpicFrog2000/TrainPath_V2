@@ -339,6 +339,28 @@ CMakeFiles/PathingApp_v2.dir/glwidget.cpp.o: \
  /usr/include/qt6/QtGui/qvector3d.h /usr/include/qt6/QtGui/qvectornd.h \
  /usr/include/qt6/QtGui/qvector4d.h /usr/include/qt6/QtGui/qquaternion.h \
  /usr/include/qt6/QtGui/qgenericmatrix.h \
+ /usr/include/qt6/QtWidgets/QPlainTextEdit \
+ /usr/include/qt6/QtWidgets/qplaintextedit.h \
+ /usr/include/qt6/QtWidgets/qtextedit.h \
+ /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
+ /usr/include/qt6/QtWidgets/qframe.h /usr/include/qt6/QtWidgets/qwidget.h \
+ /usr/include/qt6/QtGui/qtextdocument.h /usr/include/qt6/QtCore/qurl.h \
+ /usr/include/qt6/QtGui/qtextoption.h \
+ /usr/include/qt6/QtGui/qtextcursor.h \
+ /usr/include/qt6/QtGui/qtextformat.h /usr/include/qt6/QtGui/qpen.h \
+ /usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
+ /usr/include/qt6/QtGui/qtextlayout.h /usr/include/qt6/QtGui/qevent.h \
+ /usr/include/qt6/QtCore/qcoreevent.h /usr/include/qt6/QtCore/qiodevice.h \
+ /usr/include/qt6/QtCore/qpointer.h /usr/include/qt6/QtGui/qeventpoint.h \
+ /usr/include/qt6/QtGui/qvector2d.h \
+ /usr/include/qt6/QtGui/qpointingdevice.h \
+ /usr/include/qt6/QtGui/qinputdevice.h /usr/include/qt6/QtGui/qscreen.h \
+ /usr/include/qt6/QtCore/QList /usr/include/qt6/QtCore/qlist.h \
+ /usr/include/qt6/QtCore/QRect /usr/include/qt6/QtCore/qrect.h \
+ /usr/include/qt6/QtCore/QSize /usr/include/qt6/QtCore/qsize.h \
+ /usr/include/qt6/QtCore/QSizeF /usr/include/qt6/QtGui/QTransform \
+ /usr/include/qt6/QtGui/qtransform.h /usr/include/qt6/QtGui/qglyphrun.h \
+ /usr/include/qt6/QtGui/qrawfont.h /usr/include/qt6/QtGui/qfontdatabase.h \
  /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/Contact_With_DB/contact_with_db.hpp \
  /usr/include/mysql/mysql.h /usr/include/mysql/mariadb_com.h \
  /usr/include/mysql/mariadb_version.h /usr/include/mysql/ma_list.h \
@@ -359,16 +381,6 @@ CMakeFiles/PathingApp_v2.dir/glwidget.cpp.o: \
  /usr/include/c++/13.1.1/bits/stl_multiset.h \
  /Dysk_przenośny/Programowanie/C++/OpenGL/GuiOpenGl/PathingApp_v2/PathingApp/Drawing_Map/Map_Draw.hpp \
  /usr/include/qt6/QtGui/QMouseEvent /usr/include/qt6/QtGui/qevent.h \
- /usr/include/qt6/QtCore/qcoreevent.h /usr/include/qt6/QtCore/qiodevice.h \
- /usr/include/qt6/QtCore/qpointer.h /usr/include/qt6/QtCore/qurl.h \
- /usr/include/qt6/QtGui/qeventpoint.h /usr/include/qt6/QtGui/qvector2d.h \
- /usr/include/qt6/QtGui/qpointingdevice.h \
- /usr/include/qt6/QtGui/qinputdevice.h /usr/include/qt6/QtGui/qscreen.h \
- /usr/include/qt6/QtCore/QList /usr/include/qt6/QtCore/qlist.h \
- /usr/include/qt6/QtCore/QRect /usr/include/qt6/QtCore/qrect.h \
- /usr/include/qt6/QtCore/QSize /usr/include/qt6/QtCore/qsize.h \
- /usr/include/qt6/QtCore/QSizeF /usr/include/qt6/QtGui/QTransform \
- /usr/include/qt6/QtGui/qtransform.h \
  /usr/include/qt6/QtOpenGL/QOpenGLShaderProgram \
  /usr/include/qt6/QtOpenGL/qopenglshaderprogram.h \
  /usr/include/qt6/QtGui/qmatrix4x4.h \

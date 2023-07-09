@@ -7,7 +7,6 @@
 #include <QLabel>
 #include <QGroupBox>
 #include <QGridLayout>
-#include <QPlainTextEdit>
 #include <QLabel>
 #include <QLineEdit>
 #include <QPushButton>
@@ -30,8 +29,6 @@ public slots:
 private:
     QGroupBox *createOptionsGroup();
     QGroupBox *createInputGroup();
-    QPlainTextEdit *termianlArea();
-    QPlainTextEdit *textArea;
     QHBoxLayout *hbox;
     QComboBox *start;
     QComboBox *end;
